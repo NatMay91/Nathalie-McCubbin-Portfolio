@@ -10,6 +10,11 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+.logo {
+  max-width: 250px;
+}
+
+
 h1 {
   color: #FC5137;
   font-family: 'Rubik', sans-serif;
@@ -34,9 +39,7 @@ p {
   text-align: left;
   }
 
-img {
-  width: 100%;
-}
+
 
 
 
