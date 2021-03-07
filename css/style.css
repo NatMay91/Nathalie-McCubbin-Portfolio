@@ -126,6 +126,7 @@ a:focus {
 ul {
   list-style: none;
   display: flex;
+  padding-left: 0;
 }
 
 ul>li {
@@ -160,3 +161,13 @@ ul>li {
   text-decoration: none;
 }
 
+
+/* HEADER styling starts here */
+header ul {
+  justify-content: center;
+}
+
+header ul>li {
+  padding: 0 20px;
+}
+/* HEADER styling ends */
