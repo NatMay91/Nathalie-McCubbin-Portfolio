@@ -123,6 +123,15 @@ a:focus {
   text-decoration: underline;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul>li {
+  padding: 0 10px;
+}
+
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ff7f50;
@@ -150,3 +159,4 @@ a:focus {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
