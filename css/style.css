@@ -12,7 +12,10 @@ light shadow clr #E0E0E0
   box-sizing: border-box;
 }
 
+
 body {
+  padding-left: 60px;
+  padding-right: 60px;
   background-color: #F4F4F4;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
@@ -92,36 +95,24 @@ p {
   }
 
 
-
-
-
 a {
   color: #000000;
   text-decoration: none; /* No underlining */
 }
+
+
 a:hover {
   color: #979797;
-  text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-a:visited { /* visited link */
+a:active { /*selected link*/
   color: #000000;
 }
 
-a:hover {
-  color: #979797;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
-
-a:active { /* selected link */
-  color: #994c30;
-}
-
-a:hover,
 a:focus {
-  color: #979797;
-  text-decoration: underline;
+  color: #707070;
 }
+
 
 ul {
   list-style: none;
@@ -160,7 +151,7 @@ ul>li {
 }
 
 .button.contact:hover {
-  background-color: #ff7f50;
+  background-color: #000000;
   color: #ffffff;
 }
 
