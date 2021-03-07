@@ -123,6 +123,16 @@ a:focus {
   text-decoration: underline;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+ul>li {
+  padding: 0 10px;
+}
+
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ff7f50;
@@ -149,4 +159,21 @@ a:focus {
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+}
+
+
+/* HEADER styling starts here */
+header ul {
+  justify-content: center;
+}
+
+header ul>li {
+  padding: 0 20px;
+}
+/* HEADER styling ends */
+
+main, footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
