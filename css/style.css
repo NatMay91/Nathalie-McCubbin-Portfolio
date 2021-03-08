@@ -15,8 +15,13 @@ light shadow clr #E0E0E0
 }
 
 
+
 body {
    margin: 0px;
+}
+
+main {
+  padding-top: 133px;
 }
 
 .container {
@@ -141,6 +146,7 @@ a:focus {
 }
 
 /*nav styles */
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between ;
@@ -183,6 +189,7 @@ a:focus {
 
 
 /* HEADER styling ends */
+
 
 main, footer {
   max-width: 1200px;
