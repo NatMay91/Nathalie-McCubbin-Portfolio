@@ -18,6 +18,8 @@ light shadow clr #E0E0E0
 
 body {
    margin: 0px;
+   display: center;
+   max-width: 2600px;
 }
 
 main {
