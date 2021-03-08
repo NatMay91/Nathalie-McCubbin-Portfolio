@@ -8,7 +8,7 @@ Orange typography #FC5137
 light shadow clr #E0E0E0
 */
 
- 
+
 /* Master styles */
 * {
   box-sizing: border-box;
@@ -38,7 +38,7 @@ h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   }
 
 h3 {
@@ -139,7 +139,7 @@ a:focus {
   height: 80px;
 }
 
-/*nav styles */ 
+/*nav styles */
 .nav-wrapper {
   display: flex;
   justify-content: space-between ;
@@ -172,13 +172,13 @@ a:focus {
 
 .nav-link-wrapper:hover {
   border-bottom: 1px;
-  color: solid black; 
+  color: solid black;
 }
 
 .nav-link-wrapper a:hover {
-  color: solid black; 
+  color: solid black;
 }
-/*nav styles ends*/ 
+/*nav styles ends*/
 
 
 /* HEADER styling ends */
