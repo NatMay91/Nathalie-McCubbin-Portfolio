@@ -149,6 +149,7 @@ a:focus {
 
 .left-side {
   display: flex;
+  align-items: center;
 }
 
 .nav-wrapper > .left-side > div {
