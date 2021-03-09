@@ -61,6 +61,7 @@ main {
   grid-template-columns: 1fr;
 }
 
+
 .col-md-6 {
   width: 50%;
 }
@@ -248,15 +249,35 @@ header>.container {
 }
 
 
-main, footer {
+main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+
 footer {
   text-align: center;
   padding: 30px;
+  background-color: #000000;
+}
+
+footer p{
+  color: #F4F4F4;
+}
+
+footer h3{
+  color: #F4F4F4;
+  font-weight: 500;
+}
+
+footer h5{
+  color: #979797;
+}
+
+
+footer a { /*selected link*/
+  color: #979797;
 }
 
 
