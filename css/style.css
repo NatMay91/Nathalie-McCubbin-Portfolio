@@ -17,6 +17,7 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
 }
 
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -34,8 +35,6 @@ Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
 }
-
-
 
 /* Master styles */
 * {
@@ -61,10 +60,10 @@ main {
   grid-template-columns: 1fr;
 }
 
+/*Animation*/
 
-.col-md-6 {
-  width: 50%;
-}
+
+
 
 
 
@@ -254,7 +253,6 @@ main {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 
 footer {
   text-align: center;
