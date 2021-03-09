@@ -76,7 +76,6 @@ h2 {
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  padding: 20px;
   }
 
 h3 {
@@ -197,7 +196,7 @@ a:focus {
   padding-bottom: 15px;
   padding-left: 35px;
   padding-right: 35px;
-  max-height: 113px;
+  max-height: 110px;
   border-bottom: 4px solid #19191A;
 
 }
@@ -236,6 +235,10 @@ a:focus {
 
 
 /* HEADER styling ends */
+
+.row{
+  margin: 25px 0;
+}
 
 
 main, footer {
