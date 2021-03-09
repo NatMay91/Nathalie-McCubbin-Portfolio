@@ -67,6 +67,7 @@ h1 {
   font-size: 34px;
   font-weight: 500;
   text-align: center;
+  padding-top: 30px;
   }
 
 h2 {
@@ -128,7 +129,7 @@ p {
 a {
   color: #000000;
   text-decoration: none; /* No underlining */
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -192,8 +193,11 @@ a:focus {
 .nav-wrapper {
   display: flex;
   justify-content: space-between ;
-  padding: 35px;
-  max-height: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  max-height: 113px;
   border-bottom: 4px solid #19191A;
 
 }
@@ -206,19 +210,18 @@ a:focus {
 .nav-wrapper > .left-side > div {
   margin-right: 30px;
   font-size: 0.9em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link-wrapper {
   height: 25px;
   border-bottom: 1px solid transparent;
-  transition: border-bottom 0.3s;
 }
 
 .nav-link-wrapper a {
   color: #979797
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.2s;
 }
 
 .nav-link-wrapper:hover {
