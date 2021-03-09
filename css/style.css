@@ -221,20 +221,11 @@ a:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-link-wrapper {
-  height: 25px;
-  border-bottom: 1px solid transparent;
-}
 
 .navbar-link-wrapper a {
   color: #979797
   text-decoration: none;
   transition: color 0.2s;
-}
-
-.navbar-link-wrapper:hover {
-  border-bottom: 1px;
-  color: solid black;
 }
 
 .navbar-link-wrapper a:hover {
