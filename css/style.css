@@ -59,9 +59,11 @@ main {
 }
 
 
+/*h1-h6 and p*/
+
 h1 {
   color: #19191A;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 34px;
   font-weight: 400;
   text-align: center;
@@ -69,7 +71,7 @@ h1 {
 
 h2 {
   color: #19191A;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 300;
   text-align: center;
@@ -78,7 +80,7 @@ h2 {
 
 h3 {
   color: #19191A;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   line-height: 1.4;
 }
@@ -102,25 +104,28 @@ h6 {
   text-align: center;
 }
 
-#subheader-id {
+subheader-id {
   font-size: 2em;
   font-weight: 900;
 }
 
 
 p {
-  color: #979797;
-  font-family: 'Rubik', sans-serif;
+  color: #19191A;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
+  line-height: 1.4;
   }
 
+
 /* portfolio styles*/
+
 a {
   color: #000000;
   text-decoration: none; /* No underlining */
-  font-family:'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -154,18 +159,22 @@ a:focus {
   transition: 0.5s;
 }
 
+
+/* EMAIL ME button*/
+
 .button.contact {
   display: inline-block;
   background-color: transparent;
-  color: #000000;
+  color: #979797;
   text-transform: uppercase;
   padding: 10px;
-  border: 2px solid #000000;
+  border: 2px solid #979797;
 }
 
 .button.contact:hover {
-  background-color: #000000;
+  background-color: #8585B3;
   color: #ffffff;
+  border: 2px solid #8585B3;
 }
 
 
@@ -191,7 +200,7 @@ a:focus {
 .nav-wrapper > .left-side > div {
   margin-right: 30px;
   font-size: 0.9em;
-  font-family:'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-link-wrapper {
