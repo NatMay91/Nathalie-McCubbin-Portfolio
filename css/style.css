@@ -152,7 +152,6 @@ a:focus {
   color: #707070;
 }
 
-
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: transparent;
@@ -191,6 +190,10 @@ a:focus {
 
 /* HEADER styling starts here */
 
+header>.container {
+  width: 100%;
+  position: fixed;
+}
 
 .logo {
   max-height: 80px;
