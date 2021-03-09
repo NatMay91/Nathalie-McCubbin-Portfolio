@@ -49,6 +49,7 @@ body {
    display: center;
 }
 
+
 main {
   padding-top: 133px;
 }
@@ -57,6 +58,8 @@ main {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+
 
 
 /*h1-h6 and p*/
@@ -182,6 +185,8 @@ a:focus {
 
 
 /* HEADER styling starts here */
+
+
 .logo {
   max-height: 80px;
   max-width: 96px;
@@ -189,7 +194,11 @@ a:focus {
 
 /*nav styles */
 
-.nav-wrapper {
+.navbar {
+  background-color: #FFFFFF;
+}
+
+.navbar-wrapper {
   display: flex;
   justify-content: space-between ;
   padding-top: 15px;
@@ -206,29 +215,29 @@ a:focus {
   align-items: center;
 }
 
-.nav-wrapper > .left-side > div {
+.navbar-wrapper > .left-side > div {
   margin-right: 30px;
   font-size: 0.9em;
   font-family: 'Montserrat', sans-serif;
 }
 
-.nav-link-wrapper {
+.navbar-link-wrapper {
   height: 25px;
   border-bottom: 1px solid transparent;
 }
 
-.nav-link-wrapper a {
+.navbar-link-wrapper a {
   color: #979797
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.nav-link-wrapper:hover {
+.navbar-link-wrapper:hover {
   border-bottom: 1px;
   color: solid black;
 }
 
-.nav-link-wrapper a:hover {
+.navbar-link-wrapper a:hover {
   color: solid black;
 }
 /*nav styles ends*/
