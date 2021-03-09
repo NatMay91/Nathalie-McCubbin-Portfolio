@@ -65,7 +65,7 @@ h1 {
   color: #19191A;
   font-family: 'Montserrat', sans-serif;
   font-size: 34px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   }
 
@@ -93,14 +93,17 @@ h4 {
 
 h5 {
   line-height: 1;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   color: #19191A;
   margin: 0px 0px;
+  padding: 30px;
 }
 
 h6 {
   color: #19191A;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -180,7 +183,8 @@ a:focus {
 
 /* HEADER styling starts here */
 .logo {
-  height: 80px;
+  max-height: 80px;
+  max-width: 96px;
 }
 
 /*nav styles */
@@ -189,6 +193,8 @@ a:focus {
   display: flex;
   justify-content: space-between ;
   padding: 35px;
+  max-height: 140px;
+  border-bottom: 4px solid #19191A;
 
 }
 
@@ -237,4 +243,8 @@ main, footer {
 
 footer {
   text-align: center;
+}
+
+.icon {
+  padding:10px;
 }
