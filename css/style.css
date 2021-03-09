@@ -246,7 +246,9 @@ main, footer {
 
 footer {
   text-align: center;
+  padding: 30px;
 }
+
 
 .icon {
   padding:10px;
