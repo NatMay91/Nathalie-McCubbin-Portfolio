@@ -13,6 +13,8 @@ light shadow clr #E0E0E0
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  text-align: unset;
+    padding: 20px 0 13px;
 }
 
 /* ==============================
@@ -59,6 +61,9 @@ main {
   grid-template-columns: 1fr;
 }
 
+.col-md-6 {
+  width: 50%;
+}
 
 
 
