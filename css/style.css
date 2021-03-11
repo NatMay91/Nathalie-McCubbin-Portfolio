@@ -58,8 +58,8 @@ body {
 /*Animation*/
 
 
-.circle {
-  animation-duration:  4s;
+#Oval-outline {
+  animation-duration:  3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
