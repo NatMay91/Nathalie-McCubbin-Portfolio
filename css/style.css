@@ -50,11 +50,6 @@ body {
    display: center;
 }
 
-
-main {
-  padding-top: 133px;
-}
-
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -68,6 +63,7 @@ main {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+  animation-name: circle;
 }
 
 @keyframes circle {
@@ -86,7 +82,6 @@ h1 {
   font-size: 34px;
   font-weight: 500;
   text-align: center;
-  padding-top: 150px;
   }
 
 h2 {
@@ -263,6 +258,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  padding-top: 120px;
 }
 
 footer {
@@ -292,4 +288,14 @@ footer a { /*selected link*/
 
 .icon {
   padding:10px;
+}
+
+
+/* ==============================
+Medium devices (442px and larger)
+================================= */
+@media only screen and (min-width: 422px) {
+  main {
+    padding-top: 150px;
+  }
 }
