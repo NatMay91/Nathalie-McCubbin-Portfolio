@@ -242,15 +242,15 @@ header>.container {
   color: #ffffff;
   border: 2px solid #8585B3;
 }
+/* EMAIL ME button styling ends here*/
+
 
 .arrow-top {
   display: center;
   background: transparent;
-  padding: 30px;
+  padding-top: 120px;
 }
 
-
-/* EMAIL ME button styling ends here*/
 /* Footer styling starts */
 footer {
   text-align: center;
