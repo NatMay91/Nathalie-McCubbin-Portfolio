@@ -39,6 +39,7 @@ Extra-large devices (1920px or larger)
     width: 100%;
   }
 
+
   body {
     margin: 0px;
   }
@@ -132,11 +133,10 @@ Extra-large devices (1920px or larger)
   }
 
   .card img {
-    width: 585px;
-    height: 554px;
+    width: 100%;
     border-bottom: 4px solid #19191A;
   }
-}
+
 
 /* projects displayed in rows in form of cards styling ends here */
 /* button styling starts here */
