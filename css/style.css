@@ -290,11 +290,42 @@ footer a { /*selected link*/
 /*   flex-direction: column; */
 }
 
+/*Skills on about page */
+.skills-container {
+  row-gap: 2rem;
+}
+
+.skills-subtitle {
+  color: #19191A;
+  margin-bottom: 20px;
+}
+
+.skills-name {
+  display: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+
+}
+
 .image-nm {
   max-width: 380px;
   max-height: 475px;
   border: 4px solid #19191A;
+}
 
+/*navbar styles */
+.skills {
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-height: 110px;
 }
 
 .info {
