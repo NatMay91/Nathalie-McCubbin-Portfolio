@@ -7,8 +7,6 @@ Light typography #D7D7FE
 Orange typography #FC5137
 light shadow clr #E0E0E0
 */
-
-
 /* ==============================
 Medium devices (442px and larger)
 ================================= */
@@ -17,60 +15,56 @@ Medium devices (442px and larger)
     padding-top: 150px;
   }
 
-/* ==============================
+  /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-  }
+  @media only screen and (min-width: 1024px) {}
 
-
-/* ==============================
+  /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+  @media only screen and (min-width: 1440px) {}
 
-/* ==============================
+  /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {
-}
+  @media only screen and (min-width: 1920px) {}
 
-/* Master styles */
-* {
-  box-sizing: border-box;
-}
-
-img {
-  width: 100%;
-}
-
-body {
-   margin: 0px;
- }
-
- main {
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 0 20px;
-   padding-top: 120px;
- }
-
-/*h1-h6 and p*/
-h1 {
-  color: #19191A;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 34px;
-  font-weight: 500;
-  text-align: center;
+  /* Master styles */
+  * {
+    box-sizing: border-box;
   }
 
-h2 {
-  color: #19191A;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  text-align: center;
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 120px;
+  }
+
+  /*h1-h6 and p*/
+  h1 {
+    color: #19191A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  h2 {
+    color: #19191A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
   }
 
   p {
@@ -79,75 +73,77 @@ h2 {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
-    }
-
-h3 {
-  color: #19191A;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  line-height: 1.4;
-}
-
-h4 {
-  line-height: 1.6;
-  font-family: 'Lato', sans-serif;
-  color: #19191A;
-  font-weight: 300;
-}
-
-h5 {
-  line-height: 1;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #19191A;
-  margin: 0px 0px;
-  padding: 30px;
-}
-
-h6 {
-  color: #19191A;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
-
-p {
-  color: #19191A;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  text-align: center;
-  line-height: 1.4;
   }
 
-/* portfolio styles*/
-/* projects displayed in rows in form of cards styling starts here */
-.row {
-  display: flex;
-  max-width: 1200px;
-  justify-content: center;
-  padding-top: 30px;
+  h3 {
+    color: #19191A;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 1.4;
+  }
+
+  h4 {
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+    color: #19191A;
+    font-weight: 300;
+  }
+
+  h5 {
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #19191A;
+    margin: 0px 0px;
+    padding: 30px;
+  }
+
+  h6 {
+    color: #19191A;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  p {
+    color: #19191A;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  /* portfolio styles*/
+  /* projects displayed in rows in form of cards styling starts here */
+  .row {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .text-card {
+    text-align: center;
+  }
+
+  .card img {
+    width: 585px;
+    height: 554px;
+    border-bottom: 4px solid #19191A;
+  }
 }
 
-.card {
-  padding: 20px;
-}
-
-.text-card {
-  text-align: center;
-}
-
-.card img {
-  width: 585px;
-  height: 554px;
-  border-bottom: 4px solid #19191A;
-}
 /* projects displayed in rows in form of cards styling ends here */
-
 /* button styling starts here */
 a {
   color: #000000;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -155,7 +151,8 @@ a:hover {
   color: #979797;
 }
 
-a:active { /*selected link*/
+a:active {
+  /*selected link*/
   color: #000000;
 }
 
@@ -164,7 +161,8 @@ a:focus {
 }
 
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: transparent;
   color: #000000;
   padding: 15px;
@@ -179,8 +177,8 @@ a:focus {
   border: 2px solid #000000;
   transition: 0.5s;
 }
-/* button styling ends here */
 
+/* button styling ends here */
 /* HEADER styling starts here */
 header>.container {
   width: 100%;
@@ -199,14 +197,13 @@ header>.container {
 
 .navbar-wrapper {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 35px;
   padding-right: 35px;
   max-height: 110px;
   border-bottom: 4px solid #19191A;
-
 }
 
 .left-side {
@@ -214,24 +211,22 @@ header>.container {
   align-items: center;
 }
 
-.navbar-wrapper > .left-side > div {
+.navbar-wrapper>.left-side>div {
   margin-right: 30px;
   font-size: 0.9em;
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .navbar-link-wrapper a {
-  color: #979797
-  text-decoration: none;
+  color: #979797 text-decoration: none;
   transition: color 0.2s;
 }
 
 .navbar-link-wrapper a:hover {
   color: solid black;
 }
-/*nav styles ends*/
 
+/*nav styles ends*/
 /* EMAIL ME button styling*/
 .button.contact {
   display: inline-block;
@@ -249,10 +244,11 @@ header>.container {
 }
 
 .arrow-top {
-  display:center;
+  display: center;
   background: transparent;
-  padding:30px;
+  padding: 30px;
 }
+
 
 /* EMAIL ME button styling ends here*/
 /* Footer styling starts */
@@ -262,32 +258,33 @@ footer {
   background-color: #000000;
 }
 
-footer p{
+footer p {
   color: #F4F4F4;
   width: 100%;
 }
 
-footer h3{
+footer h3 {
   color: #F4F4F4;
   font-weight: 500;
 }
 
-footer h5{
+footer h5 {
   color: #979797;
 }
 
-footer a { /*selected link*/
+footer a {
+  /*selected link*/
   color: #979797;
 }
 
 .icon {
-  padding:10px;
+  padding: 10px;
 }
 
 /*About page styling*/
 .row-about {
   display: flex;
-/*   flex-direction: column; */
+  /*   flex-direction: column; */
 }
 
 /*Skills on about page */
@@ -305,7 +302,6 @@ footer a { /*selected link*/
   color: #000000;
   text-transform: uppercase;
   padding-bottom: 15px;
-
 }
 
 .image-nm {
@@ -322,7 +318,7 @@ footer a { /*selected link*/
 
 .skills-wrapper {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
   max-height: 110px;
