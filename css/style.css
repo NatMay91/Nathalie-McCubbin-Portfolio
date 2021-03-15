@@ -250,10 +250,8 @@ header>.container {
   border: 2px solid #8585B3;
 }
 
-.arrow-top>a {
-  position: center;
-}
 .arrow-top {
+  display:center;
   background: transparent;
   padding:30px;
 }
