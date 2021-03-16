@@ -224,7 +224,8 @@ main .left-side {
 }
 
 .navbar-link-wrapper a {
-  color: #979797 text-decoration: none;
+  color: #979797;
+  text-decoration: none;
   transition: color 0.2s;
 }
 
@@ -336,24 +337,32 @@ footer a {
   padding-left: 10px;
 }
 
+}
+
 
 @media only screen and (max-width: 421px) {
   .view-all-btn {
     display: none;
   }
+
+  .about-container {
+    flex-direction: column;
+  }
 }
 
 
-.about_subtitle {
+.about-container {
   display: flex;
-  justify-content: center;
-
 }
 
-.nathalie-logo {
-  width: 70px;
-  height: 35px;
-  background: #d9c0ff;
-  transform: rotateZ(150deg);
-  margin-left: 10px;
+.about-description {
+  padding-left: 20px;
+  max-width: 600px;
+}
+
+
+.skills-tools-container {
+  display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
