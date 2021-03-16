@@ -342,3 +342,18 @@ footer a {
     display: none;
   }
 }
+
+
+.about_subtitle {
+  display: flex;
+  justify-content: center;
+
+}
+
+.nathalie-logo {
+  width: 70px;
+  height: 35px;
+  background: #d9c0ff;
+  transform: rotateZ(150deg);
+  margin-left: 10px;
+}
