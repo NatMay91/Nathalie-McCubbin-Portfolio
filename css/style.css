@@ -211,6 +211,12 @@ header>.container {
   align-items: center;
 }
 
+main .left-side {
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
 .navbar-wrapper>.left-side>div {
   margin-right: 30px;
   font-size: 0.9em;
