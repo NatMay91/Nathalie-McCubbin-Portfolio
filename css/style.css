@@ -246,7 +246,8 @@ header>.container {
 
 
 .arrow-top {
-  display: center;
+  display: flex;
+  justify-content: center;
   background: transparent;
   padding-top: 120px;
 }
