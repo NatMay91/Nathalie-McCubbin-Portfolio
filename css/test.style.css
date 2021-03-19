@@ -237,6 +237,11 @@ header {
   max-width: 96px;
 }
 
+.navtoggle {
+  display: flex;
+  justify-content: space-between;
+}
+
 nav>ul {
   list-style-type: none;
   display: flex;
@@ -245,44 +250,17 @@ nav>ul {
   padding-left: 20px;
   padding-bottom: 15px;
   max-height: 110px;
+  flex-direction: column;
 }
 
-nav>ul>li>a {
-  padding: 0 20px;
-}
-
-
-.navtoggle.responsive nav {
-  padding: 20px 0 0;
-}
-
-.navtoggle.responsive li  {
-  display: block;
-  padding: 10px 0;
-  border-top: 2px #000000;
-}
-
-.navtoggle.responsive li:last-child {
-  padding: 0 0 10px;
-}
-
-.navtoggle li:not(:last-child) {
+nav>ul>li:not(:last-child) {
+  padding: 10px;
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
-  position: relative;
+.responsive nav>ul>li:not(:last-child) {
+  display: block;
 }
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-}
-
-
 
 /* --------------------------------- HEADER SECTION ENDS HERE--------------------------------- */
 /*---------------------------------------------------------------------------------------------------------------*/
@@ -722,10 +700,6 @@ Extra-large devices (1920px or larger)
     float: left;
   }
 
-nav > ul > li {
-    display: inline-block;
-  }
-
 header {
   text-align: unset;
   padding-top: 20px;
@@ -734,6 +708,12 @@ header {
   padding-right: 30px;
 }
 
+nav>ul {
+  flex-direction: row;
+}
+nav>ul>li:not(:last-child) {
+  display: block;
+}
 
 .navtoggle nav>ul>li>a>svg {
   position: absolute;
@@ -741,10 +721,6 @@ header {
   top: 15px;
   margin-right: 150px;
   padding-right: 0;
-}
-
-.navtoggle li:not(:last-child) {
-  display: inline-block;
 }
 
 .navtoggle li:last-child {
