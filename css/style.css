@@ -7,6 +7,15 @@ Light typography #D7D7FE
 Orange typography #FC5137
 light shadow clr #E0E0E0
 */
+
+/* ==============================
+Small devices (442px and larger)
+================================= */
+@media only screen and (min-width: 375px) {
+  main {
+    padding-top: 150px;
+  }
+
 /* ==============================
 Medium devices (442px and larger)
 ================================= */
