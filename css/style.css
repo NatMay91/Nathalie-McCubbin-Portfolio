@@ -142,7 +142,6 @@ Extra-large devices (1920px or larger)
 /* button styling starts here */
 a {
   color: #000000;
-  text-decoration: none;
   /* No underlining */
   font-family: 'Montserrat', sans-serif;
 }

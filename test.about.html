@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Nathalie McCubbin UI Designer Berlin </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/test.style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,143 +17,152 @@
 
 </head>
 
-<body>
-  <!-- Header starts here -->
+<!-- HEADER / NAV  -->
+
+<body id="aboutpage">
   <header>
-    <div class="container">
-      <div class="navbar">
-        <div class="navbar-wrapper">
-          <div class="left-side">
-            <div class="navbar-link-wrapper">
-              <a href="index.html">WORK</a>
-            </div>
-            <div class="navbar-link-wrapper">
-              <a href="about.html">ABOUT</a>
-            </div>
-            <div class="navbar-link-wrapper">
-              <a href="#contact">CONTACT</a>
-            </div>
-          </div>
-          <div class="right-side">
-            <div class="brand">
-              <div><img class="logo" src="./img/nm-logo.svg" alt="logo">
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class"navtoggle" id="myNavtoggle">
+      <div id="navbar">
+        <a href="test.index.html">
+          <img class="logo" src="./img/nm-logo.svg" alt="logo">
+        </a>
+        <nav>
+          <ul>
+            <li><a href="test.index.html">WORK</a></li>
+            <li><a href="test.about.html">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li>
+              <a href="javascript:void(0)" ;" onclick="menuToggle()" class="icon2">
+                <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+                  <title>menu</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <rect id="Rectangle" fill="#000000" x="5" y="5" width="6" height="6" rx="3"></rect>
+                    <rect id="Rectangle" fill="#000000" x="23" y="5" width="6" height="6" rx="3"></rect>
+                    <rect id="Rectangle" fill="#000000" x="5" y="23" width="6" height="6" rx="3"></rect>
+                    <rect id="Rectangle" fill="#000000" x="23" y="23" width="6" height="6" rx="3"></rect>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-  </header>
-  <!-- Header ends -->
-  <main>
-    <div>
-      <div id="hero">
-        <div class="container">
-          <h1>NATHALIE MCCUBBIN</h1>
-          <p>I’m a <span style="color:#A9A9E5;font-weight:bold;">UI and VISUAL DESIGNER</span> based in Berlin, Germany.
-            <br>In addition to being passionate about achieving positive user experiences,</br>
-            I strive to deliver products that are easy to use and look good on any device – both mobile and desktop.
-            <br>As a result, I’m currently leading design projects at a start-up.</br>
-          </p>
-        </div>
-      </div>
-      <!-- My Work -->
-      <div id="work">
-        <div class="container">
-          <h2 class="center">My Work</h2>
-          <div class="row">
-          </div>
-        </div>
-      </div>
-      <!-- Project displayed in rows. 3 cards in a row. -->
-      <div class="projects">
-        <div class="row">
-          <!-- Yonder -->
-          <div class="card text-card">
-            <picture>
-              <source srcset="img/covers/cover-yonder-600@1x.jpg" media="(max-width:767px)">
-              <img src="img/covers/cover-yonder-600@2x.jpg" alt="My Image">
-            </picture>
-            <h3>YONDER - Travel Booking App</h3>
-            <div><a href="Yonder.html" class="button">VIEW PROJECT</a>
-            </div>
-          </div>
-          <!-- Klang -->
-          <div class="card text-card">
-            <picture>
-              <source srcset="img/covers/cover-klang-1200@0,5x.jpg" media="(max-width:767px)">
-              <img src="img/covers/cover-klang-1200@1x.jpg" alt="My Image">
-            </picture>
-            <h3>KLANG - Music Sharing App</h3>
-            <div><a href="klang.html" class="button">VIEW PROJECT</a>
-            </div>
-          </div>
-        </div>
-        <!-- Papercut -->
-        <div class="row">
-          <div class="card text-card">
-            <picture>
-              <source srcset="img/covers/cover-papercut-600@1x.jpg" media="(max-width:767px)">
-              <img src="img/covers/cover-papercut-600@2x.jpg" alt="My Image">
-            </picture>
-            <h3> PAPERCUT - Responsive E-commerce Site</h3>
-            <div><a href="papercut.html" class="button">VIEW PROJECT</a>
-            </div>
-          </div>
-          <!-- Seedlings -->
-          <div class="card text-card">
-            <picture>
-              <source srcset="img/covers/cover-seedlings-1200@0,5x.jpg" media="(max-width:767px)">
-              <img src="img/covers/cover-seedlings-1200@1x.jpg" alt="My Image">
-            </picture>
-            <h3> SEEDLINGS - Vegan Recipe Web App</h3>
-            <div><a href="seedlings.html" class="button">VIEW PROJECT</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- arrow to top of page starts here -->
-      <div>
-        <div class="container">
-          <div class="arrow-top">
-      <a href="#top" class="arrow-top">
-        <svg width="44px" height="60px" viewBox="0 0 74 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-          <title>Arrow to top page</title>
-          <desc>Created with Sketch.</desc>
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="Desktop-HD" transform="translate(-683.000000, -2352.000000)">
-              <g id="Arrow-to-top-page" transform="translate(683.000000, 2352.000000)">
-                <rect id="Rectangle" stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="73" height="99"></rect>
-                <path d="M51,66 L67,50 L51,34 M67,50 L7,50" id="Shape" stroke="#20232D" stroke-width="2" transform="translate(37.000000, 50.000000) rotate(-90.000000) translate(-37.000000, -50.000000) "></path>
-              </g>
-            </g>
-          </g>
-        </svg>
-      </a>
     </div>
-      <!-- arrow to top of page ends here -->
-  </main>
+  </header>
+  <!-- END OF HEADER / NAV SECTION -->
 
+  <!--Main-->
+  <!--About Me starts here -->
+  <main>
+    <div id="aboutme">
+      <div class="containers">
+        <div class="boxabout">
+        <h2>Hi! I’m Nathalie</h2>
+      </div>
+      </div>
+        <div class="rowabout">
+          <div class="col-md-5">
+            <picture>
+              <source srcset="img/me-483x604px.jpg" media="(max-width:767px)">
+              <img class="image-nm" src="img/me-483x604px@2x.jpg" alt="My Image">
+            </picture>
+          </div>
+          <div class="col-md-6">
+            <div id="aboutsummary">
+              <h2>Hi! I’m Nathalie</h2>
+              <p>A german-scottish creative living in Berlin with a passion for UI design and English Breakfast tea.
+
+                <br>Fascinated by the endless possibilities of art and imagination, I was inspired to persue a creative career in fashion design, which ulmimately lead me to explore design in the tech industry.In my former role as senior fashion
+                designer
+                at H&M, I gained experience creating products for variety of customer groups worldwide. While utilizing trend forecasts and concepts to create collections on tight deadlines, I mentored junior designers and collaborated with project
+                managers, print designers and production managers.
+                </br>
+
+                <br>After working with a global company and newly redirecting my design expertise to freelance projects, I am inspired to add a combination of creative vision, interpersonal skills and well-designed aesthetics to the field of UI
+                design.
+                </br>
+
+                <br>
+                I look forward to improving my design abilities, helping achieve design goals and working in a supportive and creative company-cultured environment."
+                </br>
+              </p>
+            </div>
+            <span>
+              <a href="files/cv-nm.pdf" class="button cv">VIEW CV</a>
+            </span>
+          </div>
+        </div>
+
+
+      </div>
+      <div id="skillset">
+        <div class="rowabout">
+          <div class="col-md-6">
+            <div id="skills" class="skills-container">
+              <h2>Relevant Skills</h2>
+              <ul>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="tools" class="skills-container">
+              <h2>Tools & Software</h2>
+              <ul>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+                <li>Competitor Analysis</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
   <!-- Footer starts here -->
   <footer>
     <div id="contact">
     <div class="container">
+      <div class="boxfooter">
       <div>
         <h3>Get in Touch</h3>
-        <br>
+
         <p>Do you like my work and want to discuss opportunities?
         </p>
-        <br>
+
         <p>Call <a href="tel:+49 152 31039 415" class="underline">+49 152 31039 415</a>.</p>
         <p>Prefer sending an email?</p>
         <div>
-          <!--Email button-->
-          <a href="mailto:keinamora@gmail.com" class="button contact">Email me</a>
+          <!--Email button starts-->
+          <a href="mailto:nathalie.mccubbin@gmail.com" class="button contact">EMAIL ME</a>
         </div>
+          <!--Email button ends-->
         <div class="footerpadding">
           <a href="https://www.linkedin.com/in/nathalie-mccubbin-02831590/" class="icon">
-            <svg height="60" version="1.1" viewBox="0 0 60 60" width="60" xmlns="http://www.w3.org/2000/svg">
+            <svg height="30" version="1.1" viewBox="0 0 60 60" width="30" xmlns="http://www.w3.org/2000/svg">
               <title />
               <defs />
               <g fill="none" fill-rule="evenodd" id="black" stroke="none" stroke-width="1">
@@ -168,7 +177,7 @@
           </a>
 
           <a href="https://www.behance.net/nathalimccubb" class="icon">
-            <svg height="60" version="1.1" viewBox="0 0 60 60" width="60" xmlns="http://www.w3.org/2000/svg">
+            <svg height="30" version="1.1" viewBox="0 0 60 60" width="30" xmlns="http://www.w3.org/2000/svg">
               <title />
               <defs />
               <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
@@ -185,10 +194,5 @@
         <h5>© NATHALIE MCCUBBIN 2020</h5>
       </div>
   </footer>
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/scripts.js"></script>
-
 </body>
-
-
 </html>

@@ -1,36 +1,11 @@
-/* ==============================
-Medium devices (442px and larger)
-================================= */
-@media only screen and (min-width: 422px) {
-  main {
-    padding-top: 150px;
-  }
-
-/* ==============================
-Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {
-}
-main {
-  padding-top: 150px;
-}
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-}
-
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {
-}
-main {
-  padding-top: 150px;
-}
 
 /* Master styles */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust:100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -40,15 +15,33 @@ img {
 }
 
 body {
-   margin: 0px;
- }
+  margin: 0px;
+}
 
- main {
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 0 20px;
-   padding-top: 120px;
- }
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-top: 200px;
+  display: block;
+}
+
+.image-nm {
+  width:50%;
+}
+
+
+.col-md-5{
+  float: left;
+}
+
+.col-md-6{
+  float: left;
+}
+
+div {
+  display: block;
+}
 
 /*h1-h6 and p*/
 h1 {
@@ -57,7 +50,7 @@ h1 {
   font-size: 34px;
   font-weight: 500;
   text-align: center;
-  }
+}
 
 h2 {
   color: #19191A;
@@ -65,7 +58,7 @@ h2 {
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  }
+}
 
 h3 {
   color: #19191A;
@@ -96,106 +89,259 @@ h6 {
   text-align: center;
 }
 
-p {
+h4 {
   color: #19191A;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
   line-height: 1.4;
-  }
+}
 
-/* HEADER styling starts here */
-  header>.container {
-    width: 100%;
-    position: fixed;
-  }
+p {
+  color: #19191A;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+}
 
-  .logo {
-    max-height: 80px;
-    max-width: 96px;
-  }
-
-  /*navbar styles */
-  .navbar {
-    background-color: #FFFFFF;
-  }
-
-  .navbar-wrapper {
-    display: flex;
-    justify-content: space-between ;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 35px;
-    padding-right: 35px;
-    max-height: 110px;
-    border-bottom: 4px solid #19191A;
-
-  }
-
-  .left-side {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar-wrapper > .left-side > div {
-    margin-right: 30px;
-    font-size: 0.9em;
-    font-family: 'Montserrat', sans-serif;
-  }
+/* --------------------------------- ABOUT STYLING STARTS--------------------------------- */
+#aboutme {
+  padding-top: 100px;
+}
 
 
-  .navbar-link-wrapper a {
-    color: #979797
-    text-decoration: none;
-    transition: color 0.2s;
-  }
+.boxabout {
+  width:auto;
+  height: 200px;
+  background: url(../img/fun/fun-shapes-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-  .navbar-link-wrapper a:hover {
-    color: solid black;
-  }
-/*nav styles ends*/
-/* HEADER styling ends */
 
-/* projects displayed in rows in form of cards styling starts here */
-  .row {
+#aboutsummary h2 {
+  color: #19191A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+}
+
+#aboutsummary p {
+  text-align: left;
+}
+
+#aboutme img {
+  border: 4px solid #000000;
+}
+
+#skillset ul {
+  margin: 0;
+}
+
+#skillset ul>li {
+  text-align: left;
+  list-style-type: none;
+  color: #19191A;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+#skillset h2 {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#skillset p {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+#aboutheading{
+  text-align: center;
+  display: block;
+}
+
+#aboutheading h1{
+  line-height: 0.2;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#mystory {
+  text-align: center;
+}
+
+#skills {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+#tools {
+  padding-top: 15px;
+}
+
+.rowabout {
   display: flex;
-  max-width: 1200px;
+  max-width: 1300px;
+  justify-content: space-between;
+}
+
+.aboutmetext {
+  display: flex;
+  text-align: left;
+}
+
+.skills-container {
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+
+#skillset ul>li {
+  text-align: left;
+  list-style-type: none;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+/* --------------------------------- ABOUT STYLING ENDS--------------------------------- */
+
+
+
+/* --------------------------------- HEADER SECTION--------------------------------- */
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  text-align: unset;
+  border-bottom: 5px solid #19191A;
+}
+
+.logo {
+  max-height: 80px;
+  max-width: 96px;
+}
+
+nav>ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  max-height: 110px;
+}
+
+nav>ul>li>a {
+  padding: 0 20px;
+}
+
+
+.navtoggle.responsive nav {
+  padding: 20px 0 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 2px #000000;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+
+
+/* --------------------------------- HEADER SECTION ENDS HERE--------------------------------- */
+/*---------------------------------------------------------------------------------------------------------------*/
+.box {
+  background: url(../img/fun/fun-shapes.jpg);
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ----------ROW/CARDS STARTS HERE----------------------------------- */
+.row {
+  display: flex;
+  max-width: 1300px;
   justify-content: center;
-  margin-left: 120px;
-  margin-right: 120px;
 }
 
 .card {
-  padding: 30px;
+  padding: 2%;
+  cursor: crosshair;
 }
 
-.test-card {
-  background: #b3b0b0;
+.text-card {
+  text-align: center;
 }
 
-.test2-card h3 {
-  color: red;
+.text-card:hover {
+  text-align: center;
+  cursor: crosshair;
 }
 
 .card img {
-  width: 585px;
-  height: 554px;
+  width: 100%;
 }
-/* projects displayed in rows in form of cards styling ends here */
 
-/* button styling starts here */
+.card:hover img {
+  width: 100%;
+  cursor: crosshair;
+}
+/* ----------ROW/CARDS ENDS HERE----------------------------------- */
+
+/* ----------STYLING STARTS HERE------------------------- */
+/* ----------GENERAL BUTTONS STYLING STARTS HERE------------------------- */
 a {
   color: #000000;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
+  font-size: 0.9em;
   font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
   color: #979797;
+  transition: 0.2s;
 }
 
-a:active { /*selected link*/
+a:active {
+  /*selected link*/
   color: #000000;
 }
 
@@ -203,13 +349,15 @@ a:focus {
   color: #707070;
 }
 
+/* ----------BUTTONS STYLING STARTS HERE------------------------- */
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: transparent;
   color: #000000;
   padding: 10px;
   border: 2px solid #000000;
-  transition: 0.2s opacity;
+  transition: 0.2s;
 }
 
 .button:hover {
@@ -218,57 +366,388 @@ a:focus {
   padding: 10px;
   border: 2px solid #000000;
   transition: 0.5s;
+  cursor: crosshair;
 }
-/* button styling starts here */
+/* ----------CV BUTTON STARTS HERE------------------------*/
+.button-.cv {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: transparent;
+  color: #000000;
+  padding: 10px;
+  border: 2px solid #000000;
+  transition: 0.2s;
+}
 
-/* EMAIL ME button styling*/
+.button.cv:hover {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border: 2px solid #000000;
+  transition: 0.5s;
+  cursor: crosshair;
+}
+/* ----------CV BUTTON ENDS HERE------------------------*/
+
+/* ----------EMAIL ME BUTTON STARTS HERE------------------------*/
 .button.contact {
   display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: transparent;
-  color: #979797;
-  text-transform: uppercase;
+  color: #000000;
   padding: 10px;
-  border: 2px solid #979797;
+  border: 2px solid #000000;
+  transition: 0.2s;
+  margin-bottom: 40px;
 }
 
 .button.contact:hover {
-  background-color: #8585B3;
+  background-color: #000000;
   color: #ffffff;
-  border: 2px solid #8585B3;
+  padding: 10px;
+  border: 2px solid #000000;
+  transition: 0.5s;
+  cursor: crosshair;
+  text-decoration: none;
 }
+/* ----------EMAIL ME BUTTON ENDS HERE-------------------------*/
 
-.arrow-top>a {
-  position: center;
-}
+/* --------- ARROW BUTTON TO TOP OF SITE STARTS HERE----------*/
 .arrow-top {
+  display: flex;
+  justify-content: center;
   background: transparent;
-  padding:30px;
+  opacity: 60%;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-/* EMAIL ME button styling ends here*/
+.arrow-top:hover {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  opacity: 100%;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* ---------ARROW BUTTON TO TOP OF SITE ENDS HERE------------*/
 
-
-/* Footer styling starts */
+/* ---------FOOTER STARTS HERE----------------------------- */
 footer {
   text-align: center;
-  padding: 30px;
-  background-color: #000000;
+  background-color: #D7D7FE;
+}
+/* ---------FOOTER BACKGROUND IMAGE STARTS----------------------------- */
+.boxfooter {
+  background: url(../img/fun/fun-shapes2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* ---------FOOTER BACKGROUND IMAGE ENDS----------------------------- */
+#contact {
+  text-align: center;
 }
 
-footer p{
-  color: #F4F4F4;
-  width: 100%;
+footer p {
+  color: #19191A;
+  display: center;
 }
 
-footer h3{
-  color: #F4F4F4;
+footer h3 {
+  color: #19191A;
   font-weight: 500;
+  padding-top: 40px;
 }
 
-footer h5{
-  color: #979797;
+footer h5 {
+  color: #19191A;
 }
 
-footer a { /*selected link*/
-  color: #979797;
+footer a {
+  color: #19191A;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #19191A;
+}
+/* ----------FOOTER ENDS HERE--------------------------------- */
+
+/* ==============================
+Medium devices (442px and larger)
+================================= */
+@media only screen and (min-width: 422px) {
+  main {
+    padding-top: 150px;
+  }
+}
+
+/* ==============================
+  Medium devices (640px and larger)
+  ================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6{
+    padding: 2%;
+    width: 50%;
+  }
+}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {}
+
+main {
+  padding-top: 150px;
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {}
+
+/* Override: On screens that are 1006px wide or less */
+@media screen and (max-width: 1006px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  .box {
+    background: url(../img/fun/fun-shapes-small.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 130px;
+  }
+}
+
+/* Override: On screens that are 1201px wide or more */
+@media screen and (min-width: 1201px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  .box {
+    background: url(../img/fun/fun-shapes.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 130px;
+  }
+}
+
+/* Override: On screens that are 924px wide or less */
+@media screen and (max-width: 924px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  .box {
+    background: url(../img/fun/fun-shapes-mid.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 130px;
+  }
+}
+
+/* Override: On screens that are 924px wide or less */
+@media screen and (min-width: 900px) {
+  main{
+    display: block;
+  }
+
+.col-md-6{
+  padding: 1,5%;
+}
+  #about {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* Override: On screens that are 641px wide or less */
+@media screen and (max-width: 641px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  .box {
+    background: none;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 200px;
+  }
+}
+
+/* Override: On screens that are 641px wide or more */
+@media screen and (min-width: 641px) {
+  #navbar {
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .col-md-6 {
+    float: left;
+  }
+
+nav > ul > li {
+    display: inline-block;
+  }
+
+header {
+  text-align: unset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.navtoggle nav>ul>li>a>svg {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  margin-right: 150px;
+  padding-right: 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 }
