@@ -122,6 +122,10 @@ p {
   background-position: center;
 }
 
+.abouttext {
+  padding-left: 20px;
+}
+
 
 #aboutsummary h2 {
   color: #19191A;
@@ -133,6 +137,7 @@ p {
 
 #aboutsummary p {
   text-align: left;
+  padding-bottom: 50px;
 }
 
 #aboutme img {
