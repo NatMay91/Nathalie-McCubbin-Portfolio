@@ -25,6 +25,17 @@ main {
   padding-top: 200px;
   display: block;
 }
+
+#projectpage {
+  padding: 0 0px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding 0 20px;
+  padding-top: 200px;
+  display: block;
+}
+
+}
 nav {
   padding-right: 40px;
 }
@@ -1025,5 +1036,14 @@ ul {
       margin-bottom: 0px;
       overflow: hidden;
       padding: 20px;
+    }
+
+    #projectpage {
+      padding: 0 0px;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding 0 20px;
+      padding-top: 100px;
+      display: block;
     }
 }
