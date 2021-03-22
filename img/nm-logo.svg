@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="96px" height="80px" viewBox="0 0 96 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>nm-logo</title>
     <desc>Created with Sketch.</desc>
     <g id="nm-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Fill-8" fill="#D7D7FE" fill-rule="nonzero" transform="translate(48.159204, 40.000000) rotate(-14.000000) translate(-48.159204, -40.000000) " points="6.3681592 31.7442683 76.9539252 9.55223881 89.9502488 48.2557317 19.3644829 70.4477612"></polygon>
-        <polyline id="Stroke-1" stroke="#000000" stroke-width="3.9800995" points="19.5024876 41.8030253 19.5024876 15.5223881 46.9651741 62.8855721 46.9651741 31.3338774 60.704952 39.1892605 74.2096183 15.6477142 74.4278607 41.8030253"></polyline>
+        <polygon id="Fill-8" fill="#D7D7FE" fill-rule="nonzero" transform="translate(49.500000, 50.500000) rotate(-14.000000) translate(-49.500000, -50.500000) " points="12 43.0435364 75.3381204 23 87 57.9564636 23.6618798 78"></polygon>
+        <polyline id="Stroke-1" stroke="#000000" stroke-width="4" points="22.1246075 52.2806372 22.1246075 26 49.587294 73.3631841 49.587294 41.8114894 63.3270719 49.6668724 76.8317382 26.1253261 77.0499806 52.2806372"></polyline>
+        <rect id="Rectangle" stroke="#000000" stroke-width="4" x="2.12460747" y="2" width="96" height="96"></rect>
     </g>
 </svg>
