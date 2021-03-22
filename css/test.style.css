@@ -278,6 +278,8 @@ nav>ul>li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 /* ----------ROW/CARDS STARTS HERE----------------------------------- */
@@ -761,6 +763,8 @@ nav>ul>li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   .row {
@@ -782,7 +786,7 @@ nav>ul>li {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 200px;
+    padding-top: 120px;
   }
 }
 
@@ -835,6 +839,8 @@ nav>ul>li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   .row {
@@ -856,12 +862,12 @@ nav>ul>li {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 200px;
+    padding-top: 120px;
   }
 }
 
-/* Override: On screens that are 545px wide or less */
-@media screen and (max-width: 506px) {
+/* Override: On screens that are 507px wide or less */
+@media screen and (max-width: 507px) {
   header {
     background-color: #ffffff;
     padding: 10px;
@@ -870,6 +876,12 @@ nav>ul>li {
     text-align: unset;
     border-bottom: 4px solid #19191A;
     display: inline-block;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 120px;
   }
 
   nav {
@@ -904,6 +916,8 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
   }
 
   .row {
@@ -925,6 +939,6 @@ ul {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 200px;
+    padding-top: 120px;
   }
 }
