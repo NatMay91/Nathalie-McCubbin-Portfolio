@@ -652,48 +652,6 @@ Extra-large devices (1920px or larger)
 }
 
 
-/* Override: On screens that are 641px wide or less */
-@media screen and (max-width: 641px) {
-  header {
-    background-color: #ffffff;
-    padding: 10px;
-    width: 100%;
-    position: absolute;
-    text-align: unset;
-    border-bottom: 4px solid #19191A;
-  }
-
-  .box {
-    background: none;
-    padding: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .row {
-    display: block;
-  }
-
-  .card {
-    margin-bottom: 50px;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  body {
-    margin: 0px;
-  }
-
-  main {
-    margin: 0 auto;
-    padding: 0 20px;
-    padding-top: 200px;
-  }
-}
-
 /* Override: On screens that are 641px wide or more */
 @media screen and (min-width: 641px) {
   #navbar {
@@ -730,9 +688,6 @@ nav>ul>li {
   padding-right: 0;
 }
 
-.navtoggle li:last-child {
-  display: none;
-}
 
 .profile-pic-container {
   min-width: 35%;
@@ -743,4 +698,164 @@ nav>ul>li {
   flex-direction: row;
 }
 
+}
+
+/* Override: On screens that are 641px wide or less */
+@media screen and (max-width: 641px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6 {
+    float: left;
+  }
+
+  .container1 {
+    height:100px;
+  }
+
+header {
+  text-align: unset;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav>ul {
+  flex-direction: row;
+  display: inline-block;
+}
+nav>ul>li {
+  display: inline-block;
+}
+
+.navtoggle nav>ul>li>a>svg {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  padding-right: 0;
+}
+
+  .box {
+    background: none;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 200px;
+  }
+}
+
+/* Override: On screens that are 545px wide or less */
+@media screen and (max-width: 545px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .col-md-6 {
+    float: left;
+  }
+
+  .container1 {
+    height:90px;
+  }
+
+header {
+  text-align: unset;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav>ul {
+  flex-direction: row;
+  display: inline-block;
+}
+nav>ul>li {
+  display: inline-block;
+}
+
+.navtoggle nav>ul>li>a>svg {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  padding-right: 0;
+}
+
+  .box {
+    background: none;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 200px;
+  }
 }
