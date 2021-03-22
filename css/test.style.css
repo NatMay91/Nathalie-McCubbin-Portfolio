@@ -234,6 +234,7 @@ header {
   position: fixed;
   text-align: unset;
   border-bottom: 5px solid #19191A;
+  display: inline-block; 
 }
 
 .logo {
