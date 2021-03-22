@@ -39,9 +39,6 @@ main {
   float: left;
 }
 
-div {
-  display: block;
-}
 
 /*h1-h6 and p*/
 h1 {
@@ -235,6 +232,11 @@ header {
   text-align: unset;
   border-bottom: 5px solid #19191A;
   display: inline-block;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -867,12 +869,6 @@ nav>ul>li {
   max-height: 50px;
 }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
 
   .col-md-6 {
     float: left;
@@ -883,20 +879,6 @@ nav>ul>li {
   }
 
 
-nav>ul {
-  flex-direction: ;
-  display: inline-block;
-}
-nav>ul>li {
-  display: inline-block;
-}
-
-.navtoggle nav>ul>li>a>svg {
-  position: absolute;
-  right: 0;
-  top: 15px;
-  padding-right: 0;
-}
 
   .box {
     background: none;
