@@ -25,6 +25,9 @@ main {
   padding-top: 200px;
   display: block;
 }
+nav {
+  padding-right: 40px;
+}
 
 .image-nm {
   width:50%;
@@ -236,7 +239,7 @@ header {
 
 header div {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -285,8 +288,12 @@ nav>ul>li {
 }
 
 .card {
-  padding: 2%;
   cursor: crosshair;
+  padding: 2%;
+}
+
+.projects {
+  padding-right: 0px;
 }
 
 .text-card {
@@ -865,8 +872,19 @@ nav>ul>li {
     display: inline-block;
   }
 
+  nav {
+    padding-right: 0px;
+  }
+
+ul {
+  direction: rtl;
+  margin-bottom: 0px;
+  padding-right: 0px;
+}
+
 .logo {
-  max-height: 50px;
+  padding-top: 10px;
+  width: 80%;
 }
 
 
