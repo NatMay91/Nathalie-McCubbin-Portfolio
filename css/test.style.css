@@ -718,7 +718,7 @@ header {
 nav>ul {
   flex-direction: row;
 }
-nav>ul>li:not(:last-child) {
+nav>ul>li {
   display: block;
 }
 
