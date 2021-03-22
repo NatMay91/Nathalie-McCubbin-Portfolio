@@ -257,12 +257,12 @@ nav>ul {
   flex-direction: column;
 }
 
-nav>ul>li:not(:last-child) {
+nav>ul>li {
   padding: 10px;
   display: none;
 }
 
-.responsive nav>ul>li:not(:last-child) {
+.responsive nav>ul>li {
   display: block;
 }
 
