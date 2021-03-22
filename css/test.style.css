@@ -148,9 +148,9 @@ p {
 }
 
 #skillset {
-  justify-content: space-around;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  justify-content: space-evenly;
+  padding-top:90px;
+  padding-bottom: 190px;
 }
 
 #skillset ul {
@@ -180,35 +180,9 @@ p {
   padding-bottom: 10px;
 }
 
-
-#aboutheading{
-  text-align: center;
-  display: block;
-}
-
-#aboutheading h1{
-  line-height: 0.2;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-#mystory {
-  text-align: center;
-}
-
-#skills {
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-
-#tools {
-  padding-top: 15px;
-}
-
 .rowabout {
   display: flex;
-  max-width: 1300px;
+  max-width: 1200px;
   justify-content: space-between;
 }
 
@@ -951,4 +925,37 @@ ul {
     padding: 0 20px;
     padding-top: 120px;
   }
+
+  .boxabout {
+    background: none;
+    width:0px;
+    height:0px;
+  }
+
+  #aboutsummary p {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+#skillset {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+    .rowabout {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-between;
+    }
+
+
+    .aboutmetext {
+      display: flex;
+      text-align: left;
+    }
+
+    .skills-container {
+      margin-bottom: 0px;
+      overflow: hidden;
+      padding: 20px;
+    }
 }
