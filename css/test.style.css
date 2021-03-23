@@ -215,6 +215,23 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+.rowprojects {
+  display:flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
 /* --------------------------------- ABOUT STYLING ENDS--------------------------------- */
 
 
