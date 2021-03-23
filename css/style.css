@@ -66,7 +66,7 @@ nav {
 
 /*h1-h6 and p*/
 h1 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 800;
@@ -74,7 +74,7 @@ h1 {
 }
 
 h2 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -82,7 +82,7 @@ h2 {
 }
 
 h3 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   line-height: 1.4;
@@ -90,7 +90,7 @@ h3 {
 
 h4 {
   font-size: 0.9em;
-  color: #19191A;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -98,20 +98,20 @@ h5 {
   line-height: 1;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #19191A;
+  color: #000000;
   margin: 0px 0px;
   padding: 30px;
 }
 
 h6 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: center;
 }
 
 h4 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -120,7 +120,7 @@ h4 {
 }
 
 p {
-  color: #19191A;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -148,7 +148,7 @@ p {
 }
 
 #aboutsummary h2 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Montserrat';
   font-size: 28px;
   font-weight: 700;
@@ -173,7 +173,7 @@ p {
 #skillset ul {
   margin: 0;
   padding-left: 0;
-  color: #19191A;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -184,11 +184,11 @@ p {
 #skillset ul>li {
   text-align: left;
   list-style-type: none;
-  color: #19191A;
+  color: #000000;
 }
 
 #skillset h3 {
-  color: #19191A;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   line-height: 1.4;
@@ -248,7 +248,7 @@ header {
   width: 100%;
   position: fixed;
   text-align: unset;
-  border-bottom: 5px solid #19191A;
+  border-bottom: 5px solid #000000;
   display: inline-block;
 }
 
@@ -347,7 +347,8 @@ a {
 }
 
 a:hover {
-  color: #979797;
+  color: #000000;
+  font-weight: bold;
   transition: 0.2s;
 }
 
@@ -381,7 +382,7 @@ a:focus {
 }
 
 /* ----------CV BUTTON STARTS HERE------------------------*/
-.button-.cv {
+.button.cv {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: transparent;
@@ -466,27 +467,27 @@ footer {
 }
 
 footer p {
-  color: #19191A;
+  color: #000000;
   display: center;
 }
 
 footer h3 {
-  color: #19191A;
+  color: #000000;
   font-weight: 500;
   padding-top: 40px;
 }
 
 footer h5 {
-  color: #19191A;
+  color: #000000;
 }
 
 footer a {
-  color: #19191A;
+  color: #000000;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: #19191A;
+  color: #000000;
 }
 
 /* Override: On screens that are 1201px wide or more */
@@ -496,7 +497,7 @@ footer a:hover {
     padding: 10px;
     width: 100%;
     text-align: unset;
-    border-bottom: 4px solid #19191A;
+    border-bottom: 4px solid #000000;
   }
 
   .box {
@@ -545,7 +546,7 @@ footer a:hover {
     width: 100%;
     position: absolute;
     text-align: unset;
-    border-bottom: 4px solid #19191A;
+    border-bottom: 4px solid #000000;
   }
 
   .box {
@@ -849,7 +850,7 @@ footer a:hover {
     width: 100%;
     position: fixed;
     text-align: unset;
-    border-bottom: 4px solid #19191A;
+    border-bottom: 4px solid #000000;
     display: inline-block;
   }
 
@@ -938,7 +939,7 @@ footer a:hover {
     width: 100%;
     position: fixed;
     text-align: unset;
-    border-bottom: 4px solid #19191A;
+    border-bottom: 4px solid #000000;
     display: inline-block;
   }
 
