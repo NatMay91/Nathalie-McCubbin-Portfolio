@@ -1,9 +1,7 @@
-
 /* Master styles */
-
 html {
   scroll-behavior: smooth;
-  -webkit-text-size-adjust:100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 * {
@@ -34,25 +32,23 @@ main {
   padding-top: 200px;
   display: block;
 }
-
 }
+
 nav {
   padding-right: 40px;
 }
 
 .image-nm {
-  width:50%;
+  width: 50%;
 }
 
-
-.col-md-5{
+.col-md-5 {
   float: left;
 }
 
-.col-md-6{
+.col-md-6 {
   float: left;
 }
-
 
 /*h1-h6 and p*/
 h1 {
@@ -123,13 +119,12 @@ p {
   padding-top: 150px;
 }
 
-
 .boxabout {
   background: url(../img/fun/fun-shapes-about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding:20px;
+  padding: 20px;
 }
 
 .abouttext {
@@ -137,7 +132,6 @@ p {
   max-width: 700px;
   padding-right: 20px;
 }
-
 
 #aboutsummary h2 {
   color: #19191A;
@@ -158,7 +152,7 @@ p {
 
 #skillset {
   justify-content: space-evenly;
-  padding-top:90px;
+  padding-top: 90px;
   padding-bottom: 190px;
 }
 
@@ -206,7 +200,6 @@ p {
   padding: 20px;
 }
 
-
 #skillset ul>li {
   text-align: left;
   list-style-type: none;
@@ -217,7 +210,7 @@ p {
 }
 
 .rowprojects {
-  display:flex;
+  display: flex;
   max-width: 1200px;
   justify-content: space-between;
   padding-top: 30px;
@@ -232,10 +225,8 @@ p {
   padding-right: 5%;
   padding-left: 5%;
 }
+
 /* --------------------------------- ABOUT STYLING ENDS--------------------------------- */
-
-
-
 /* --------------------------------- HEADER SECTION--------------------------------- */
 header {
   background-color: #ffffff;
@@ -329,8 +320,8 @@ nav>ul>li {
 .rowabout {
   flex-direction: column;
 }
-/* ----------ROW/CARDS ENDS HERE----------------------------------- */
 
+/* ----------ROW/CARDS ENDS HERE----------------------------------- */
 /* ----------STYLING STARTS HERE------------------------- */
 /* ----------GENERAL BUTTONS STYLING STARTS HERE------------------------- */
 a {
@@ -374,6 +365,7 @@ a:focus {
   transition: 0.5s;
   cursor: crosshair;
 }
+
 /* ----------CV BUTTON STARTS HERE------------------------*/
 .button-.cv {
   display: inline-block;
@@ -393,8 +385,8 @@ a:focus {
   transition: 0.5s;
   cursor: crosshair;
 }
-/* ----------CV BUTTON ENDS HERE------------------------*/
 
+/* ----------CV BUTTON ENDS HERE------------------------*/
 /* ----------EMAIL ME BUTTON STARTS HERE------------------------*/
 .button.contact {
   display: inline-block;
@@ -416,8 +408,8 @@ a:focus {
   cursor: crosshair;
   text-decoration: none;
 }
-/* ----------EMAIL ME BUTTON ENDS HERE-------------------------*/
 
+/* ----------EMAIL ME BUTTON ENDS HERE-------------------------*/
 /* --------- ARROW BUTTON TO TOP OF SITE STARTS HERE----------*/
 .arrow-top {
   display: flex;
@@ -438,13 +430,14 @@ a:focus {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* ---------ARROW BUTTON TO TOP OF SITE ENDS HERE------------*/
 
+/* ---------ARROW BUTTON TO TOP OF SITE ENDS HERE------------*/
 /* ---------FOOTER STARTS HERE----------------------------- */
 footer {
   text-align: center;
   background-color: #D7D7FE;
 }
+
 /* ---------FOOTER BACKGROUND IMAGE STARTS----------------------------- */
 .boxfooter {
   background: url(../img/fun/fun-shapes2.jpg);
@@ -452,6 +445,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 /* ---------FOOTER BACKGROUND IMAGE ENDS----------------------------- */
 #contact {
   text-align: center;
@@ -480,8 +474,8 @@ footer a:hover {
   text-decoration: underline;
   color: #19191A;
 }
-/* ----------FOOTER ENDS HERE--------------------------------- */
 
+/* ----------FOOTER ENDS HERE--------------------------------- */
 /* ==============================
 Medium devices (442px and larger)
 ================================= */
@@ -506,12 +500,11 @@ Medium devices (442px and larger)
     margin-top: 4px;
   }
 
-  .col-md-6{
+  .col-md-6 {
     padding: 2%;
     width: 50%;
   }
 }
-
 
 /* ==============================
 Large devices (1024px or larger)
@@ -666,13 +659,14 @@ Extra-large devices (1920px or larger)
 
 /* Override: On screens that are 924px wide or less */
 @media screen and (min-width: 900px) {
-  main{
+  main {
     display: block;
   }
 
-.col-md-6{
-  padding: 1,5%;
-}
+  .col-md-6 {
+    padding: 1, 5%;
+  }
+
   #about {
     max-width: 1200px;
     margin-left: auto;
@@ -680,11 +674,10 @@ Extra-large devices (1920px or larger)
   }
 }
 
-
 /* Override: On screens that are 641px wide or more */
 @media screen and (min-width: 641px) {
   #navbar {
-    max-width:1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 3%;
@@ -695,45 +688,45 @@ Extra-large devices (1920px or larger)
     float: left;
   }
 
-header {
-  text-align: unset;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+  header {
+    text-align: unset;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-nav>ul {
-  flex-direction: row;
-}
-nav>ul>li {
-  display: block;
-}
+  nav>ul {
+    flex-direction: row;
+  }
 
-.navtoggle nav>ul>li>a>svg {
-  position: absolute;
-  right: 0;
-  top: 15px;
-  margin-right: 150px;
-  padding-right: 0;
-}
+  nav>ul>li {
+    display: block;
+  }
 
+  .navtoggle nav>ul>li>a>svg {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin-right: 150px;
+    padding-right: 0;
+  }
 
-.profile-pic-container {
-  min-width: 35%;
-  padding: 20px;
-}
+  .profile-pic-container {
+    min-width: 35%;
+    padding: 20px;
+  }
 
-.rowabout {
-  flex-direction: row;
-}
+  .rowabout {
+    flex-direction: row;
+  }
 
-.boxabout {
-  background: url(../img/fun/fun-shapes-about-small.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 20px;
-  height: 150px;
-}
+  .boxabout {
+    background: url(../img/fun/fun-shapes-about-small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    height: 150px;
+  }
 }
 
 /* Override: On screens that are 641px wide or less */
@@ -758,34 +751,37 @@ nav>ul>li {
   }
 
   .container1 {
-    height:100px;
+    height: 100px;
   }
 
-header {
-  text-align: unset;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+  header {
+    text-align: unset;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-nav>ul {
-  flex-direction: row;
-  display: inline-block;
-}
-nav>ul>li {
-  display: inline-block;
-}
+  nav>ul {
+    flex-direction: row;
+    display: inline-block;
+  }
 
-.navtoggle nav>ul>li>a>svg {
-  position: absolute;
-  right: 0;
-  top: 15px;
-  padding-right: 0;
-}
-.boxabout {
-  background: none;
-  height:0px;
-}
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle nav>ul>li>a>svg {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    padding-right: 0;
+  }
+
+  .boxabout {
+    background: none;
+    height: 0px;
+  }
+
   .box {
     background: none;
     padding: 20px;
@@ -818,41 +814,41 @@ nav>ul>li {
     padding-top: 120px;
   }
 
-
   #aboutsummary p {
     padding-top: 0px;
     padding-bottom: 20px;
   }
 
   #skillset {
-  padding-top: 50px;
-  padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
-    .rowabout {
-      display: flex;
-      max-width: 1200px;
-      justify-content: space-between;
-    }
 
-    #aboutsummary h2 {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-      #skillset.rowabout {
-        padding-top: 20px;
-      }
+  .rowabout {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
 
+  #aboutsummary h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
-    .aboutmetext {
-      display: flex;
-      text-align: left;
-    }
+  #skillset.rowabout {
+    padding-top: 20px;
+  }
 
-    .skills-container {
-      margin-bottom: 0px;
-      overflow: hidden;
-      padding: 20px;
-    }
+  .aboutmetext {
+    display: flex;
+    text-align: left;
+  }
+
+  .skills-container {
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding: 20px;
+  }
 }
 
 /* Override: On screens that are 545px wide or less */
@@ -873,36 +869,34 @@ nav>ul>li {
     margin-top: 4px;
   }
 
-
   .col-md-6 {
     float: left;
   }
 
   .container1 {
-    height:90px;
+    height: 90px;
   }
 
+  nav>ul {
+    flex-direction: row;
+    display: inline-block;
+  }
 
-nav>ul {
-  flex-direction: row;
-  display: inline-block;
-}
-nav>ul>li {
-  display: inline-block;
-}
+  nav>ul>li {
+    display: inline-block;
+  }
 
-.navtoggle nav>ul>li>a>svg {
-  position: absolute;
-  right: 0;
-  top: 15px;
-  padding-right: 0;
-}
+  .navtoggle nav>ul>li>a>svg {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    padding-right: 0;
+  }
 
-.boxabout {
-  background: none;
-  height:0px;
-}
-
+  .boxabout {
+    background: none;
+    height: 0px;
+  }
 
   .box {
     background: none;
@@ -914,10 +908,11 @@ nav>ul>li {
     margin-top: 0px;
   }
 
-#aboutsummary h2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+  #aboutsummary h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   #skillset.rowabout {
     padding-top: 20px;
   }
@@ -943,7 +938,6 @@ nav>ul>li {
     padding: 0 20px;
     padding-top: 120px;
   }
-
 }
 
 /* Override: On screens that are 507px wide or less */
@@ -968,27 +962,24 @@ nav>ul>li {
     padding-right: 0px;
   }
 
-ul {
-  direction: rtl;
-  margin-bottom: 0px;
-  padding-right: 0px;
-}
+  ul {
+    direction: rtl;
+    margin-bottom: 0px;
+    padding-right: 0px;
+  }
 
-.logo {
-  padding-top: 10px;
-  width: 80%;
-}
-
+  .logo {
+    padding-top: 10px;
+    width: 80%;
+  }
 
   .col-md-6 {
     float: left;
   }
 
   .container1 {
-    height:90px;
+    height: 90px;
   }
-
-
 
   .box {
     background: none;
@@ -1024,8 +1015,8 @@ ul {
 
   .boxabout {
     background: none;
-    width:0px;
-    height:0px;
+    width: 0px;
+    height: 0px;
   }
 
   #aboutsummary p {
@@ -1033,34 +1024,34 @@ ul {
     padding-bottom: 20px;
   }
 
-#skillset {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-    .rowabout {
-      display: flex;
-      max-width: 1200px;
-      justify-content: space-between;
-    }
+  #skillset {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
 
+  .rowabout {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
 
-    .aboutmetext {
-      display: flex;
-      text-align: left;
-    }
+  .aboutmetext {
+    display: flex;
+    text-align: left;
+  }
 
-    .skills-container {
-      margin-bottom: 0px;
-      overflow: hidden;
-      padding: 20px;
-    }
+  .skills-container {
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding: 20px;
+  }
 
-    #projectpage {
-      padding: 0 0px;
-      max-width: 1300px;
-      margin: 0 auto;
-      padding 0 20px;
-      padding-top: 100px;
-      display: block;
-    }
+  #projectpage {
+    padding: 0 0px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding 0 20px;
+    padding-top: 100px;
+    display: block;
+  }
 }
