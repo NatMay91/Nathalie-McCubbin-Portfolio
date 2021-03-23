@@ -20,7 +20,7 @@ main {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
-  padding-top: 200px;
+  padding-top: 150px;
   display: block;
 }
 
@@ -68,8 +68,8 @@ nav {
 h1 {
   color: #19191A;
   font-family: 'Montserrat', sans-serif;
-  font-size: 34px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -149,9 +149,9 @@ p {
 
 #aboutsummary h2 {
   color: #19191A;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 300;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -293,7 +293,7 @@ nav>ul>li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 30px;
 }
 
