@@ -24,14 +24,15 @@ main {
   display: block;
 }
 
-#yondertest {
+.changeimgonhover {
   background: url(../img/covers/covers-yonder-600@2x.jpg);
   transition: background;
   background-size: contain;
   background-repeat: no-repeat;
+  background: url(../img/fun/fun-shapes-about.jpg)
 }
 
-#yondertest:hover {
+.changeimgonhover {
   background: url(../img/fun/fun-shapes-about.jpg);
   background-repeat: no-repeat;
   background-size: contain;
