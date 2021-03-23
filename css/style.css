@@ -489,98 +489,6 @@ footer a:hover {
   color: #19191A;
 }
 
-/* ----------FOOTER ENDS HERE--------------------------------- */
-/* ==============================
-Medium devices (442px and larger)
-================================= */
-@media only screen and (min-width: 422px) {
-  main {
-    padding-top: 150px;
-  }
-}
-
-/* ==============================
-  Medium devices (640px and larger)
-  ================================= */
-@media only screen and (min-width: 640px) {
-  header {
-    text-align: unset;
-    padding: 20px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
-  .col-md-6 {
-    padding: 2%;
-    width: 50%;
-  }
-}
-
-/* ==============================
-Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {}
-
-main {
-  padding-top: 150px;
-}
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {}
-
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {}
-
-/* Override: On screens that are 1006px wide or less */
-@media screen and (max-width: 1006px) {
-  header {
-    background-color: #ffffff;
-    padding: 10px;
-    width: 100%;
-    position: absolute;
-    text-align: unset;
-    border-bottom: 4px solid #19191A;
-  }
-
-  .box {
-    background: url(../img/fun/fun-shapes-small.jpg);
-    padding: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .row {
-    display: block;
-  }
-
-  .card {
-    margin-bottom: 50px;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  body {
-    margin: 0px;
-  }
-
-  main {
-    margin: 0 auto;
-    padding: 0 20px;
-    padding-top: 130px;
-  }
-}
-
 /* Override: On screens that are 1201px wide or more */
 @media screen and (min-width: 1201px) {
   header {
@@ -600,7 +508,7 @@ Extra-large devices (1920px or larger)
   }
 
   .boxabout {
-    background: url(../img/fun/fun-shapes-about.jpg);
+    background: url(../img/fun/fun-shapes-about.large.jpg);
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -629,6 +537,58 @@ Extra-large devices (1920px or larger)
   }
 }
 
+/* Override: On screens that are 1006px wide or less */
+@media screen and (max-width: 1006px) {
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: unset;
+    border-bottom: 4px solid #19191A;
+  }
+
+  .box {
+    background: url(../img/fun/fun-shapes-small.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .boxabout {
+    background: url(../img/fun/fun-shapes-about-small.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 130px;
+  }
+}
+
+
 /* Override: On screens that are 924px wide or less */
 @media screen and (max-width: 924px) {
   header {
@@ -641,11 +601,20 @@ Extra-large devices (1920px or larger)
   }
 
   .box {
-    background: url(../img/fun/fun-shapes-mid.jpg);
+    background: url(../img/fun/fun-shapes-small.jpg);
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .boxabout {
+    background: url(../img/fun/fun-shapes-about-small.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
   }
 
   .row {
@@ -685,6 +654,13 @@ Extra-large devices (1920px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .boxabout {
+    background: url(../img/fun/fun-shapes-about-small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    height: 150px;
   }
 }
 
