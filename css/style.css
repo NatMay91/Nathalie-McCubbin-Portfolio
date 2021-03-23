@@ -24,6 +24,19 @@ main {
   display: block;
 }
 
+#yondertest {
+  background: url(../img/covers/covers-yonder-600@2x.jpg);
+  transition: background;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#yondertest:hover {
+  background: url(../img/fun/fun-shapes-about.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 #projectpage {
   padding: 0 0px;
   max-width: 1300px;
