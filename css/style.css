@@ -1,7 +1,6 @@
 /* Master styles */
 html {
   scroll-behavior: smooth;
-  -webkit-text-size-adjust: 100%;
 }
 
 * {
@@ -20,7 +19,7 @@ main {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
-  padding-top: 150px;
+  padding-top: 120px;
   display: block;
 }
 
@@ -42,11 +41,10 @@ main {
   padding: 0 0px;
   max-width: 1300px;
   margin: 0 auto;
-  padding 0 20px;
   padding-top: 200px;
   display: block;
 }
-}
+
 
 nav {
   padding-right: 40px;
@@ -129,9 +127,6 @@ p {
 }
 
 /* --------------------------------- ABOUT STYLING STARTS--------------------------------- */
-#aboutme {
-  padding-top: 150px;
-}
 
 .boxabout {
   background: url(../img/fun/fun-shapes-about.jpg);
@@ -288,13 +283,13 @@ nav>ul>li {
 /* --------------------------------- HEADER SECTION ENDS HERE--------------------------------- */
 /*---------------------------------------------------------------------------------------------------------------*/
 .box {
-  background: url(../img/fun/fun-shapes.jpg);
-  padding: 20px;
+  background: url(../img/fun/fun-shapes-index.jpg);
+  padding: 40px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* ----------ROW/CARDS STARTS HERE----------------------------------- */
@@ -501,8 +496,8 @@ footer a:hover {
   }
 
   .box {
-    background: url(../img/fun/fun-shapes.jpg);
-    padding: 20px;
+    background: url(../img/fun/fun-shapes-index.jpg);
+    padding: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -550,8 +545,8 @@ footer a:hover {
   }
 
   .box {
-    background: url(../img/fun/fun-shapes-small.jpg);
-    padding: 20px;
+    background: url(../img/fun/fun-shapes-index-mid.jpg);
+    padding: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -602,8 +597,8 @@ footer a:hover {
   }
 
   .box {
-    background: url(../img/fun/fun-shapes-small.jpg);
-    padding: 20px;
+    background: url(../img/fun/fun-shapes-index-small.jpg);
+    padding: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -648,7 +643,7 @@ footer a:hover {
   }
 
   .col-md-6 {
-    padding: 1, 5%;
+    padding: 0, 5%;
   }
 
   #about {
@@ -709,14 +704,6 @@ footer a:hover {
 
   .rowabout {
     flex-direction: row;
-  }
-
-  .boxabout {
-    background: url(../img/fun/fun-shapes-about-small.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 20px;
-    height: 150px;
   }
 }
 
@@ -1001,7 +988,7 @@ footer a:hover {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .boxabout {
@@ -1034,14 +1021,14 @@ footer a:hover {
   .skills-container {
     margin-bottom: 0px;
     overflow: hidden;
-    padding: 20px;
+    padding: 0px;
   }
 
   #projectpage {
     padding: 0 0px;
     max-width: 1300px;
     margin: 0 auto;
-    padding 0 20px;
+    padding: 0 20px;
     padding-top: 100px;
     display: block;
   }
