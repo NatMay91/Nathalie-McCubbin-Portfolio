@@ -45,7 +45,6 @@ main {
   display: block;
 }
 
-
 nav {
   padding-right: 40px;
 }
@@ -127,7 +126,6 @@ p {
 }
 
 /* --------------------------------- ABOUT STYLING STARTS--------------------------------- */
-
 .boxabout {
   background: url(../img/fun/fun-shapes-about.jpg);
   background-repeat: no-repeat;
@@ -584,7 +582,6 @@ footer a:hover {
   }
 }
 
-
 /* Override: On screens that are 924px wide or less */
 @media screen and (max-width: 924px) {
   header {
@@ -651,6 +648,7 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
   .boxabout {
     background: url(../img/fun/fun-shapes-about-small.jpg);
     background-repeat: no-repeat;
@@ -886,6 +884,10 @@ footer a:hover {
     margin-top: 0px;
   }
 
+  .abouttext {
+    padding-left: 0;
+  }
+
   #aboutsummary h2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -893,6 +895,7 @@ footer a:hover {
 
   #skillset.rowabout {
     padding-top: 20px;
+    padding-left: 0px;
   }
 
   .row {
