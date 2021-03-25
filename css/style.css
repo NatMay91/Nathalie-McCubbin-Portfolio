@@ -139,6 +139,9 @@ p {
   max-width: 700px;
   padding-right: 20px;
 }
+#aboutsummary {
+  padding-bottom: 5%;
+}
 
 #aboutsummary h2 {
   color: #000000;
@@ -148,9 +151,13 @@ p {
   text-align: left;
 }
 
+#abouttext p {
+  padding-bottom: 10px;
+}
+
 #aboutsummary p {
   text-align: left;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 #aboutme img {
@@ -212,8 +219,6 @@ p {
   list-style-type: none;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .rowprojects {
@@ -459,10 +464,6 @@ footer {
   text-align: center;
 }
 
-footer p {
-  color: #000000;
-  display: center;
-}
 
 footer h3 {
   color: #000000;
@@ -639,10 +640,6 @@ footer a:hover {
     display: block;
   }
 
-  .col-md-6 {
-    padding: 0, 5%;
-  }
-
   #about {
     max-width: 1200px;
     margin-left: auto;
@@ -792,7 +789,7 @@ footer a:hover {
 
   #aboutsummary p {
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   #skillset {
