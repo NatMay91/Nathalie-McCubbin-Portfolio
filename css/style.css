@@ -464,6 +464,10 @@ footer {
   text-align: center;
 }
 
+footer p {
+  color: #000000;
+  justify-content: center;
+}
 
 footer h3 {
   color: #000000;
@@ -528,7 +532,7 @@ footer a:hover {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 130px;
+    padding-top: 150px;
   }
 }
 
@@ -914,7 +918,7 @@ footer a:hover {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 120px;
+    padding-top: 135px;
   }
 }
 
