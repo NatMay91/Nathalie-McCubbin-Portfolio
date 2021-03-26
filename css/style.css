@@ -2,19 +2,15 @@
 html {
   scroll-behavior: smooth;
 }
-
 * {
   box-sizing: border-box;
 }
-
 img {
   width: 100%;
 }
-
 body {
   margin: 0px;
 }
-
 main {
   max-width: 1300px;
   margin: 0 auto;
@@ -22,7 +18,6 @@ main {
   padding-top: 120px;
   display: block;
 }
-
 .changeimgonhover {
   background: url(../img/covers/covers-yonder-600@2x.jpg);
   transition: background;
@@ -30,13 +25,11 @@ main {
   background-repeat: no-repeat;
   background: url(../img/fun/fun-shapes-about.jpg)
 }
-
 .changeimgonhover {
   background: url(../img/fun/fun-shapes-about.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 #projectpage {
   padding: 0 0px;
   max-width: 1300px;
@@ -44,23 +37,18 @@ main {
   padding-top: 200px;
   display: block;
 }
-
 nav {
   padding-right: 40px;
 }
-
 .image-nm {
   width: 50%;
 }
-
 .col-md-5 {
   float: left;
 }
-
 .col-md-6 {
   float: left;
 }
-
 /*h1-h6 and p*/
 h1 {
   color: #000000;
@@ -69,7 +57,6 @@ h1 {
   font-weight: 800;
   text-align: center;
 }
-
 h2 {
   color: #000000;
   font-family: 'Montserrat', sans-serif;
@@ -77,20 +64,17 @@ h2 {
   font-weight: 300;
   text-align: center;
 }
-
 h3 {
   color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   line-height: 1.4;
 }
-
 h4 {
   font-size: 0.9em;
   color: #000000;
   font-weight: 500;
 }
-
 h5 {
   line-height: 1;
   font-family: 'Lato', sans-serif;
@@ -99,14 +83,12 @@ h5 {
   margin: 0px 0px;
   padding: 30px;
 }
-
 h6 {
   color: #000000;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: center;
 }
-
 h4 {
   color: #000000;
   font-family: 'Lato', sans-serif;
@@ -115,7 +97,6 @@ h4 {
   text-align: center;
   line-height: 1.4;
 }
-
 p {
   color: #000000;
   font-family: 'Lato', sans-serif;
@@ -124,7 +105,6 @@ p {
   text-align: center;
   line-height: 1.6;
 }
-
 #hero {
   padding-bottom: 2%;
   padding-top: 2%;
@@ -138,7 +118,6 @@ p {
 #aboutsummary {
   padding-bottom: 5%;
 }
-
 #aboutsummary h2 {
   color: #000000;
   font-family: 'Montserrat';
@@ -146,27 +125,22 @@ p {
   font-weight: 700;
   text-align: left;
 }
-
 #abouttext p {
   padding-bottom: 10px;
 }
-
 #aboutsummary p {
   text-align: left;
   padding-bottom: 10px;
 }
-
 #aboutme img {
   border: 4px solid #000000;
 }
-
 #skillset {
   justify-content: space-evenly;
   padding-top: 90px;
   padding-bottom: 190px;
   margin-right: 0;
 }
-
 #skillset ul {
   margin: 0;
   padding-left: 0;
@@ -177,13 +151,11 @@ p {
   text-align: center;
   line-height: 1.2;
 }
-
 #skillset ul>li {
   text-align: left;
   list-style-type: none;
   color: #000000;
 }
-
 #skillset h3 {
   color: #000000;
   font-family: 'Montserrat', sans-serif;
@@ -193,37 +165,31 @@ p {
   padding-top: 5px;
   padding-bottom: 10px;
 }
-
 .rowabout {
   display: flex;
   max-width: 1200px;
   justify-content: space-between;
 }
-
 .aboutmetext {
   display: flex;
   text-align: left;
 }
-
 .skills-container {
   margin-bottom: 30px;
   overflow: hidden;
   padding: 20px;
 }
-
 #skillset ul>li {
   text-align: left;
   list-style-type: none;
-  margin-block-start: 1em;
+  padding: 10px 0;
 }
-
 .rowprojects {
   display: flex;
   max-width: 1200px;
   justify-content: space-between;
   padding-top: 30px;
 }
-
 .left-side {
   display: flex;
   align-items: center;
@@ -233,7 +199,6 @@ p {
   padding-right: 5%;
   padding-left: 5%;
 }
-
 /* --------------------------------- ABOUT STYLING ENDS--------------------------------- */
 /* --------------------------------- HEADER SECTION--------------------------------- */
 header {
@@ -245,22 +210,18 @@ header {
   border-bottom: 5px solid #000000;
   display: inline-block;
 }
-
 header div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-
 .logo {
   max-height: 80px;
   max-width: 96px;
 }
-
 .navtoggle {
   display: flex;
   justify-content: space-between;
 }
-
 nav>ul {
   list-style-type: none;
   display: flex;
@@ -269,54 +230,42 @@ nav>ul {
   max-height: 110px;
   flex-direction: column;
 }
-
 nav>ul>li {
   padding: 10px;
   display: none;
 }
-
 .responsive nav>ul>li {
   display: block;
 }
-
 /* --------------------------------- HEADER SECTION ENDS HERE--------------------------------- */
 /*---------------------------------------------------------------------------------------------------------------*/
-
 /* ----------ROW/CARDS STARTS HERE----------------------------------- */
 .row {
   display: flex;
   max-width: 1300px;
   justify-content: center;
 }
-
 .card {
   cursor: crosshair;
   padding: 2%;
 }
-
-
 .text-card {
   text-align: center;
 }
-
 .text-card:hover {
   text-align: center;
   cursor: crosshair;
 }
-
 .card img {
   width: 100%;
 }
-
 .card:hover img {
   width: 100%;
   cursor: crosshair;
 }
-
 .rowabout {
   flex-direction: column;
 }
-
 /* ----------ROW/CARDS ENDS HERE----------------------------------- */
 /* ----------STYLING STARTS HERE------------------------- */
 /* ----------GENERAL BUTTONS STYLING STARTS HERE------------------------- */
@@ -327,22 +276,18 @@ a {
   font-size: 0.9em;
   font-family: 'Montserrat', sans-serif;
 }
-
 a:hover {
   color: #000000;
   font-weight: bold;
   transition: 0.2s;
 }
-
 a:active {
   /*selected link*/
   color: #000000;
 }
-
 a:focus {
   color: #707070;
 }
-
 /* ----------BUTTONS STYLING STARTS HERE------------------------- */
 .button {
   display: inline-block;
@@ -353,7 +298,6 @@ a:focus {
   border: 2px solid #000000;
   transition: 0.2s;
 }
-
 .button:hover {
   background-color: #000000;
   color: #ffffff;
@@ -362,7 +306,6 @@ a:focus {
   transition: 0.5s;
   cursor: crosshair;
 }
-
 /* ----------CV BUTTON STARTS HERE------------------------*/
 .button.cv {
   display: inline-block;
@@ -373,7 +316,6 @@ a:focus {
   border: 2px solid #000000;
   transition: 0.2s;
 }
-
 .button.cv:hover {
   background-color: #000000;
   color: #ffffff;
@@ -382,7 +324,6 @@ a:focus {
   transition: 0.5s;
   cursor: crosshair;
 }
-
 /* ----------CV BUTTON ENDS HERE------------------------*/
 /* ----------EMAIL ME BUTTON STARTS HERE------------------------*/
 .button.contact {
@@ -395,7 +336,6 @@ a:focus {
   transition: 0.2s;
   margin-bottom: 40px;
 }
-
 .button.contact:hover {
   background-color: #000000;
   color: #ffffff;
@@ -405,7 +345,6 @@ a:focus {
   cursor: crosshair;
   text-decoration: none;
 }
-
 /* ----------EMAIL ME BUTTON ENDS HERE-------------------------*/
 /* --------- ARROW BUTTON TO TOP OF SITE STARTS HERE----------*/
 .arrow-top {
@@ -417,7 +356,6 @@ a:focus {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .arrow-top:hover {
   display: flex;
   justify-content: center;
@@ -427,14 +365,12 @@ a:focus {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 /* ---------ARROW BUTTON TO TOP OF SITE ENDS HERE------------*/
 /* ---------FOOTER STARTS HERE----------------------------- */
 footer {
   text-align: center;
   background-color: #D7D7FE;
 }
-
 /* ---------FOOTER BACKGROUND IMAGE STARTS----------------------------- */
 .boxfooter {
   background: url(../img/fun/fun-shapes2.jpg);
@@ -442,36 +378,29 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
 /* ---------FOOTER BACKGROUND IMAGE ENDS----------------------------- */
 #contact {
   text-align: center;
 }
-
 footer p {
   color: #000000;
   justify-content: center;
 }
-
 footer h3 {
   color: #000000;
   font-weight: 500;
   padding-top: 40px;
 }
-
 footer h5 {
   color: #000000;
 }
-
 footer a {
   color: #000000;
 }
-
 footer a:hover {
   text-decoration: underline;
   color: #000000;
 }
-
 /* Override: On screens that are 1201px wide or more */
 @media screen and (min-width: 1201px) {
   header {
@@ -481,28 +410,23 @@ footer a:hover {
     text-align: unset;
     border-bottom: 4px solid #000000;
   }
-
   .row {
     display: flex;
     max-width: 1200px;
     justify-content: center;
   }
-
   img {
     width: 100%;
   }
-
   body {
     margin: 0px;
   }
-
   main {
     margin: 0 auto;
     padding: 0 20px;
     padding-top: 150px;
   }
 }
-
 /* Override: On screens that are 1006px wide or less */
 @media screen and (max-width: 1006px) {
   header {
@@ -513,23 +437,18 @@ footer a:hover {
     text-align: unset;
     border-bottom: 4px solid #000000;
   }
-
   .row {
     display: block;
   }
-
   .card {
     margin-bottom: 50px;
   }
-
   img {
     width: 100%;
   }
-
   body {
     margin: 0px;
   }
-
   main {
     margin: 0 auto;
     padding: 0 20px;
@@ -537,7 +456,6 @@ footer a:hover {
     padding-bottom: 15%;
   }
 }
-
 /* Override: On screens that are 924px wide or less */
 @media screen and (max-width: 924px) {
   header {
@@ -548,42 +466,34 @@ footer a:hover {
     text-align: unset;
     border-bottom: 4px solid #19191A;
   }
-
   .row {
     display: block;
   }
-
   .card {
     margin-bottom: 50px;
   }
-
   img {
     width: 100%;
   }
-
   body {
     margin: 0px;
   }
-
   main {
     margin: 0 auto;
     padding: 0 20px;
     padding-top: 150px;
   }
 }
-
 /* Override: On screens that are 924px wide or less */
 @media screen and (min-width: 900px) {
   main {
     display: block;
   }
-
   #about {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
-
   .boxabout {
     background: url(../img/fun/fun-shapes-about-small.jpg);
     background-repeat: no-repeat;
@@ -592,7 +502,6 @@ footer a:hover {
     height: 150px;
   }
 }
-
 /* Override: On screens that are 641px wide or more */
 @media screen and (min-width: 641px) {
   #navbar {
@@ -602,26 +511,21 @@ footer a:hover {
     padding-left: 3%;
     padding-right: 3%;
   }
-
   .col-md-6 {
     float: left;
   }
-
   header {
     text-align: unset;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
   }
-
   nav>ul {
     flex-direction: row;
   }
-
   nav>ul>li {
     display: block;
   }
-
   .navtoggle nav>ul>li>a>svg {
     position: absolute;
     right: 0;
@@ -629,17 +533,14 @@ footer a:hover {
     margin-right: 150px;
     padding-right: 0;
   }
-
   .profile-pic-container {
     min-width: 35%;
     padding: 20px;
   }
-
   .rowabout {
     flex-direction: row;
   }
 }
-
 /* Override: On screens that are 641px wide or less */
 @media screen and (max-width: 641px) {
   header {
@@ -650,49 +551,40 @@ footer a:hover {
     text-align: unset;
     border-bottom: 4px solid #19191A;
   }
-
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
-
   .col-md-6 {
     float: left;
   }
-
   .container1 {
     height: 100px;
   }
-
   header {
     text-align: unset;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
   }
-
   nav>ul {
     flex-direction: row;
     display: inline-block;
   }
-
   nav>ul>li {
     display: inline-block;
   }
-
   .navtoggle nav>ul>li>a>svg {
     position: absolute;
     right: 0;
     top: 15px;
     padding-right: 0;
   }
-
   .boxabout {
     background: none;
     height: 0px;
   }
-
   .box {
     background: none;
     padding: 20px;
@@ -702,66 +594,53 @@ footer a:hover {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-
   .row {
     display: block;
   }
-
   .card {
     margin-bottom: 50px;
   }
-
   img {
     width: 100%;
   }
-
   body {
     margin: 0px;
   }
-
   main {
     margin: auto;
     padding: 0 20px;
     padding-top: 150px;
   }
-
   #aboutsummary p {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-
   #skillset {
     padding-top: 50px;
     padding-bottom: 20px;
   }
-
   .rowabout {
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
   }
-
   #aboutsummary h2 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
   #skillset.rowabout {
     padding-top: 20px;
   }
-
   .aboutmetext {
     display: flex;
     text-align: left;
   }
-
   .skills-container {
     margin-bottom: 0px;
     overflow: hidden;
     padding: 20px;
   }
 }
-
 /* Override: On screens that are 545px wide or less */
 @media screen and (max-width: 545px) {
   header {
@@ -773,42 +652,34 @@ footer a:hover {
     border-bottom: 4px solid #000000;
     display: inline-block;
   }
-
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
-
   .col-md-6 {
     float: left;
   }
-
   .container1 {
     height: 90px;
   }
-
   nav>ul {
     flex-direction: row;
     display: inline-block;
   }
-
   nav>ul>li {
     display: inline-block;
   }
-
   .navtoggle nav>ul>li>a>svg {
     position: absolute;
     right: 0;
     top: 15px;
     padding-right: 0;
   }
-
   .boxabout {
     background: none;
     height: 0px;
   }
-
   .box {
     background: none;
     padding: 20px;
@@ -818,44 +689,35 @@ footer a:hover {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-
   .abouttext {
     padding-left: 0;
   }
-
   #aboutsummary h2 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
   #skillset.rowabout {
     padding-top: 20px;
     padding-left: 0px;
   }
-
   .row {
     display: block;
   }
-
   .card {
     margin-bottom: 50px;
   }
-
   img {
     width: 100%;
   }
-
   body {
     margin: 0px;
   }
-
   main {
     margin: 0 auto;
     padding: 0 20px;
     padding-top: 135px;
   }
 }
-
 /* Override: On screens that are 507px wide or less */
 @media screen and (max-width: 507px) {
   header {
@@ -867,36 +729,28 @@ footer a:hover {
     border-bottom: 4px solid #000000;
     display: inline-block;
   }
-
   main {
     margin: 0 auto;
     padding: 0 20px;
     padding-top: 120px;
   }
-
   nav {
     padding-right: 0px;
   }
-
   ul {
-    direction: rtl;
     margin-bottom: 0px;
     padding-right: 0px;
   }
-
   .logo {
     padding-top: 10px;
     width: 80%;
   }
-
   .col-md-6 {
     float: left;
   }
-
   .container1 {
     height: 90px;
   }
-
   .box {
     background: none;
     padding: 20px;
@@ -906,63 +760,51 @@ footer a:hover {
     margin-bottom: 30px;
     margin-top: 0px;
   }
-
   .row {
     display: block;
   }
-
   .card {
     margin-bottom: 60px;
     padding: 0%;
   }
-
   img {
     width: 100%;
   }
-
   body {
     margin: 0px;
   }
-
   main {
     margin: 0 auto;
     padding: 0 20px;
     padding-top: 140px;
   }
-
   .boxabout {
     background: none;
     width: 0px;
     height: 0px;
   }
-
   #aboutsummary p {
     padding-top: 0px;
     padding-bottom: 20px;
   }
-
   #skillset {
     padding-top: 50px;
     padding-bottom: 20px;
   }
-
   .rowabout {
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
   }
-
   .aboutmetext {
     display: flex;
     text-align: left;
   }
-
   .skills-container {
     margin-bottom: 0px;
     overflow: hidden;
     padding: 0px;
   }
-
   #projectpage {
     padding: 0 0px;
     max-width: 1300px;
@@ -971,4 +813,16 @@ footer a:hover {
     padding-top: 100px;
     display: block;
   }
+}
+
+.card:hover .card-image {
+  display: none;
+}
+
+.card:hover .card-image-on-hover {
+  display: block;
+}
+
+.card .card-image-on-hover {
+  display: none;
 }
