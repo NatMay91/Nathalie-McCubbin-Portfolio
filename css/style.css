@@ -121,7 +121,8 @@ p {
 .abouttext {
   padding-left: 20px;
   max-width: 700px;
-  padding-right: 20px;
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 #aboutsummary {
@@ -144,6 +145,7 @@ p {
   text-align: left;
   padding-bottom: 10px;
 }
+
 
 #aboutme img {
   border: 4px solid #000000;
@@ -217,7 +219,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-bottom: 5%;
   padding-right: 5%;
   padding-left: 5%;
@@ -227,7 +229,8 @@ p {
 /* --------------------------------- HEADER SECTION--------------------------------- */
 header {
   background-color: #ffffff;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
   position: fixed;
   text-align: unset;
@@ -254,7 +257,6 @@ nav>ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 15px;
   max-height: 110px;
   flex-direction: column;
 }
@@ -594,7 +596,6 @@ footer a:hover {
 
   header {
     text-align: unset;
-    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -639,7 +640,6 @@ footer a:hover {
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
   }
 
   .col-md-6 {
@@ -652,7 +652,6 @@ footer a:hover {
 
   header {
     text-align: unset;
-    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -762,7 +761,6 @@ footer a:hover {
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
   }
 
   .col-md-6 {
@@ -875,7 +873,7 @@ footer a:hover {
   }
 
   .logo {
-    padding-top: 10px;
+    padding-top: 0px;
     width: 80%;
   }
 
@@ -951,13 +949,14 @@ footer a:hover {
     margin-bottom: 0px;
     overflow: hidden;
     padding: 0px;
+    padding-bottom: 20px;
   }
 
   #projectpage {
     padding: 0 0px;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 px;
     padding-top: 100px;
     display: block;
   }
