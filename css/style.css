@@ -113,7 +113,7 @@ p {
 }
 
 #hero {
-  padding-top: 2%;
+  padding-top: 3%;
   padding-bottom: 4%;
 }
 
@@ -422,6 +422,15 @@ footer {
   background-color: #D7D7FE;
 }
 
+
+
+.herobackground {
+  background: url(../img/fun/purple-shape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
 /* ---------FOOTER BACKGROUND IMAGE STARTS----------------------------- */
 .boxfooter {
   background: url(../img/fun/gradient-footer.jpg);
@@ -429,7 +438,6 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
 /* ---------FOOTER BACKGROUND IMAGE ENDS----------------------------- */
 #contact {
   text-align: center;
@@ -609,6 +617,13 @@ footer a:hover {
     padding-right: 0;
   }
 
+  .herobackground {
+    background: url(../img/fun/purple-shape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
   .profile-pic-container {
     min-width: 35%;
     padding: 20px;
@@ -665,6 +680,12 @@ footer a:hover {
     right: 0;
     top: 15px;
     padding-right: 0;
+  }
+
+  .herobackground {
+    background: url(../img/fun/purple-shape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .boxabout {
@@ -751,6 +772,12 @@ footer a:hover {
     text-align: unset;
     border-bottom: 4px solid #000000;
     display: inline-block;
+  }
+
+  .herobackground {
+    background: url(../img/fun/purple-shape-500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   nav {
@@ -846,6 +873,11 @@ footer a:hover {
     border-bottom: 4px solid #000000;
     display: inline-block;
   }
+
+  .herobackground {
+    background: url(../img/fun/purple-shape-500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 
   main {
     margin: 0 auto;
