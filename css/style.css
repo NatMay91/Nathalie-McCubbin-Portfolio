@@ -19,7 +19,7 @@ main {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
-  padding-top: 120px;
+  padding-top: 150px;
   display: block;
 }
 
@@ -34,6 +34,7 @@ main {
 nav {
   padding-right: 0px;
 }
+
 
 .image-nm {
   width: 50%;
@@ -112,8 +113,8 @@ p {
 }
 
 #hero {
-  padding-bottom: 2%;
   padding-top: 2%;
+  padding-bottom: 4%;
 }
 
 /* --------------------------------- ABOUT STYLING STARTS--------------------------------- */
@@ -581,14 +582,6 @@ footer a:hover {
 
 /* Override: On screens that are 641px wide or more */
 @media screen and (min-width: 641px) {
-  #navbar {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-
   .col-md-6 {
     float: left;
   }
