@@ -32,7 +32,7 @@ main {
 }
 
 nav {
-  padding-right: 40px;
+  padding-right: 0px;
 }
 
 .image-nm {
@@ -423,7 +423,7 @@ footer {
 
 /* ---------FOOTER BACKGROUND IMAGE STARTS----------------------------- */
 .boxfooter {
-  background: url(../img/fun/fun-shapes2.jpg);
+  background: url(../img/fun/gradient-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -776,7 +776,7 @@ footer a:hover {
 
   nav>ul {
     flex-direction: row;
-    display: inline-block;
+    display: flex;
   }
 
   nav>ul>li {
