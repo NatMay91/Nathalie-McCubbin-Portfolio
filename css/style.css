@@ -113,7 +113,7 @@ p {
 }
 
 #hero {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 4%;
 }
 
@@ -266,6 +266,12 @@ nav>ul>li {
 
 .responsive nav>ul>li {
   display: block;
+}
+
+.herobackground {
+  background: url(../img/fun/purple-shape.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* --------------------------------- HEADER SECTION ENDS HERE--------------------------------- */
@@ -422,15 +428,6 @@ footer {
   background-color: #D7D7FE;
 }
 
-
-
-.herobackground {
-  background: url(../img/fun/purple-shape.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
 /* ---------FOOTER BACKGROUND IMAGE STARTS----------------------------- */
 .boxfooter {
   background: url(../img/fun/gradient-footer.jpg);
@@ -438,6 +435,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 /* ---------FOOTER BACKGROUND IMAGE ENDS----------------------------- */
 #contact {
   text-align: center;
@@ -617,13 +615,6 @@ footer a:hover {
     padding-right: 0;
   }
 
-  .herobackground {
-    background: url(../img/fun/purple-shape.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-
   .profile-pic-container {
     min-width: 35%;
     padding: 20px;
@@ -680,12 +671,6 @@ footer a:hover {
     right: 0;
     top: 15px;
     padding-right: 0;
-  }
-
-  .herobackground {
-    background: url(../img/fun/purple-shape.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
   .boxabout {
@@ -774,12 +759,6 @@ footer a:hover {
     display: inline-block;
   }
 
-  .herobackground {
-    background: url(../img/fun/purple-shape-500.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
   nav {
     width: auto;
     float: right;
@@ -858,7 +837,7 @@ footer a:hover {
   main {
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 135px;
+    padding-top: 140px;
   }
 }
 
@@ -878,6 +857,7 @@ footer a:hover {
     background: url(../img/fun/purple-shape-500.jpg);
     background-repeat: no-repeat;
     background-position: center;
+  }
 
   main {
     margin: 0 auto;
